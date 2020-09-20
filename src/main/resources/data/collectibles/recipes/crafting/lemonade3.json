@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "fruittrees:lemon",
+      "item": "minecraft:glass_bottle",
+      "item": "minecraft:sugar"
+    }
+
+
+  ],
+
+  "result": {"item":"collectibles:lemonade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "fruittrees"
+    }
+  ]
+}

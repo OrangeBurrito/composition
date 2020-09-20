@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:potitem",
+      "item": "pamhc2foodcore:vinegaritem",
+      "item": "minecraft:milk_bucket",
+      "item": "collectibles:lemonade"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:lemonade",
+    "item": "minecraft:bucket"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

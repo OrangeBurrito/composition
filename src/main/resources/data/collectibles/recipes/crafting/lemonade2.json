@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2trees:lemonitem",
+      "item": "minecraft:glass_bottle",
+      "item": "minecraft:honey_bottle"
+    }
+
+
+  ],
+
+  "result": {"item": "collectibles:lemonade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "item.collectibles.inkwell": "Scribing Tools",
+  "item.collectibles.gravy": "Gravy",
+  "item.collectibles.baguette": "Baguette",
+  "item.collectibles.meatbun": "Meatbun",
+  "item.collectibles.shotga_cola": "Shotga Cola",
+  "item.collectibles.hotdog": "Hotdog",
+  "item.collectibles.nachos": "Nachos",
+  "item.collectibles.poutine": "Poutine",
+  "item.collectibles.pizza": "Pizza",
+  "item.collectibles.personal_pizza": "Personal Pizza",
+  "item.collectibles.sauteed_frog_legs": "Sauteed Frog Legs",
+  "item.collectibles.pad_thai": "Pad Thai",
+  "item.collectibles.pho": "Pho",
+  "item.collectibles.paneer": "Paneer",
+  "item.collectibles.fruit_salad": "Fruit Salad",
+  "item.collectibles.apple_slices": "Apple Slices",
+  "item.collectibles.cucumber_sandwich": "Cucumber Sandwich",
+  "item.collectibles.banana_daiquiri": "Frozen Banana Daiquiri",
+  "item.collectibles.lemonade": "Lemonade",
+  "item.collectibles.peach_sangria": "Peach Sangria",
+  "item.collectibles.pina_colada": "Piña Colada",
+  "item.collectibles.prismatic_punch": "Prismatic Punch",
+  "item.collectibles.darkness_smoothie": "Smoothie of Darkness",
+  "item.collectibles.tropical_smoothie": "Tropical Smoothie",
+  "item.collectibles.milkshake": "Milkshake",
+  "item.collectibles.ice_cream": "Ice Cream",
+  "item.collectibles.banana_split": "Banana Split",
+
+  "item.collectibles.horse_mask": "Horse Mask",
+
+  "block.collectibles.table": "Table",
+  "block.collectibles.old_stonecutter": "Old Stonecutter",
+  "block.collectibles.gamecube": "Gamecube",
+  "block.collectibles.crt": "CRT Monitor",
+
+  "itemGroup.collectiblestab": "Collectibles"
+}
