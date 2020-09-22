@@ -45,6 +45,9 @@ public class ModItems {
     public static final RegistryObject<Item> MILKSHAKE = ITEMS.register("milkshake", () -> new MilkshakeItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(7.5F).build())));
     public static final RegistryObject<Item> ICE_CREAM = ITEMS.register("ice_cream", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(10).build())));
     public static final RegistryObject<Item> BANANA_SPLIT = ITEMS.register("banana_split", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(10).saturation(10).build())));
+    public static final RegistryObject<Item> BLACKBERRY_COBBLER = ITEMS.register("blackberry_cobbler", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(9.5F).build())));
+    public static final RegistryObject<Item> PEACH_COBBLER = ITEMS.register("peach_cobbler", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(9.5F).build())));
+    public static final RegistryObject<Item> COBBLESTONE_COBBLER = ITEMS.register("cobblestone_cobbler", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(9.5F).build())));
 
 //    public static final RegistryObject<HorseMaskItem> HORSE_MASK = ITEMS.register("horse_mask", () -> new HorseMaskItem(ModArmorMaterial.LEATHER, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
 //    public static final RegistryObject<Item> GRILLED_SQUIRREL = ITEMS.register("grilled_squirrel", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(15).saturation(6.0F).build())));

@@ -1,5 +1,6 @@
 
 {
+  "parent": "block/cube",
   "loader": "forge:obj",
   "flip-v": true,
   "ambientToFullbright": false,

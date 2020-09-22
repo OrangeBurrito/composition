@@ -26,6 +26,9 @@
   "item.collectibles.milkshake": "Milkshake",
   "item.collectibles.ice_cream": "Ice Cream Sundae",
   "item.collectibles.banana_split": "Banana Split",
+  "item.collectibles.blackberry_cobbler": "Blackberry Cobbler",
+  "item.collectibles.peach_cobbler": "Peach Cobbler",
+  "item.collectibles.cobblestone_cobbler": "Cobblestone Cobbler",
 
   "block.collectibles.table": "Table",
   "block.collectibles.old_stonecutter": "Old Stonecutter",

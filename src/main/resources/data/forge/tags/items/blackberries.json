@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:blackberries/blackberries",
+    "#forge:blackberries/blackberries_sf"
+  ]
+}

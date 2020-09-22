@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:bakewareitem",
+      "item": "pamhc2foodcore:doughitem",
+      "tag": "pamhc2trees:peachitem",
+      "item": "minecraft:honey_bottle"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:peach_cobbler",
+    "item": "pamhc2foodcore:bakewareitem",
+    "item": "minecraft:glass_bottle"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

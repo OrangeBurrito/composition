@@ -1,9 +1,7 @@
 package com.orangeburrito.collectibles;
 
-import com.orangeburrito.collectibles.client.ClientReference;
 import com.orangeburrito.collectibles.core.ModBlocks;
 import com.orangeburrito.collectibles.core.ModItems;
-import com.orangeburrito.common.ISidedReference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -18,15 +16,12 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.fml.DistExecutor;
-import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.server.FMLServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.fml.network.simple.SimpleChannel;
 import net.minecraftforge.registries.IForgeRegistry;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -90,7 +85,7 @@ public class Collectibles {
 
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(ModBlocks.TABLE.get());
+            return new ItemStack(ModBlocks.GAMECUBE.get());
         }
     }
 

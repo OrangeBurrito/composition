@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:bakewareitem",
+      "item": "pamhc2foodcore:doughitem",
+      "tag": "pamhc2foodcore:butteritem",
+      "ore": "cobblestone",
+      "ore": "cobblestone",
+      "ore": "cobblestone",
+      "ore": "cobblestone",
+      "ore": "cobblestone",
+      "ore": "cobblestone"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:peach_cobbler",
+    "item": "pamhc2foodcore:bakewareitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}
