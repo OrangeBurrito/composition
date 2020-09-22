@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:bakewareitem",
+      "item": "pamhc2foodcore:doughitem",
+      "item": "simplefarming:cheese_slice",
+      "item": "simplefarming:tomato",
+      "item": "pamhc2foodextended:pepperoniitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:pizza",
+    "item": "pamhc2foodcore:bakewareitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2foodextended",
+      "modid": "simplefarming"
+    }
+  ]
+}

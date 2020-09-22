@@ -10,7 +10,7 @@ import net.minecraft.world.World;
 
 import java.util.List;
 
-public class ShotgaColaItem extends Item {
+public class ShotgaColaItem extends DrinkItem {
     public ShotgaColaItem(Properties properties) {
         super(properties);
     }

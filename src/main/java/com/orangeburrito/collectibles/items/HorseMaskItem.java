@@ -1,5 +1,6 @@
 package com.orangeburrito.collectibles.items;
 
+import com.orangeburrito.collectibles.Collectibles;
 import net.minecraft.client.renderer.entity.model.BipedModel;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.inventory.EquipmentSlotType;
@@ -15,6 +16,7 @@ public class HorseMaskItem extends ArmorItem {
 
     @Override
     public <A extends BipedModel<?>> A getArmorModel(LivingEntity entityLiving, ItemStack itemStack, EquipmentSlotType armorSlot, A _default) {
+//        return Collectibles.SIDED_SYSTEM.getHorseMaskModel(armorSlot);
         return null;
     }
 }

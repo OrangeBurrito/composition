@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:skilletitem",
+      "item": "betteranimalsplus:venison_raw",
+      "item": "minecraft:bread"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:hotdog",
+    "item": "pamhc2foodcore:skilletitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "betteranimalsplus"
+    }
+  ]
+}

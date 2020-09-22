@@ -15,7 +15,8 @@
 
   "result": {
     "item": "collectibles:lemonade",
-    "item": "minecraft:bucket"
+    "item": "minecraft:bucket",
+    "item": "pamhc2foodcore:potitem"
   },
   "conditions": [
     {

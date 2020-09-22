@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:mixingbowlitem",
+      "tag": "forge:cherries",
+      "item": "minecraft:sugar",
+      "item": "pamhc2foodcore:freshmilkitem",
+      "item": "minecraft:snowball"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:ice_cream",
+    "item": "pamhc2foodcore:mixingbowlitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

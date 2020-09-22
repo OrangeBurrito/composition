@@ -24,15 +24,15 @@
   "item.collectibles.darkness_smoothie": "Smoothie of Darkness",
   "item.collectibles.tropical_smoothie": "Tropical Smoothie",
   "item.collectibles.milkshake": "Milkshake",
-  "item.collectibles.ice_cream": "Ice Cream",
+  "item.collectibles.ice_cream": "Ice Cream Sundae",
   "item.collectibles.banana_split": "Banana Split",
-
-  "item.collectibles.horse_mask": "Horse Mask",
 
   "block.collectibles.table": "Table",
   "block.collectibles.old_stonecutter": "Old Stonecutter",
   "block.collectibles.gamecube": "Gamecube",
   "block.collectibles.crt": "CRT Monitor",
+  "block.collectibles.laptop": "Laptop",
+  "block.collectibles.playstation": "Playstation",
 
   "itemGroup.collectiblestab": "Collectibles"
 }

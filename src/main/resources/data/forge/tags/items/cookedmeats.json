@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:cookedmeats/cookedbeef",
+    "#forge:cookedmeats/cookedchicken",
+    "#forge:cookedmeats/cookedcod",
+    "#forge:cookedmeats/cookedmutton",
+    "#forge:cookedmeats/cookedpork",
+    "#forge:cookedmeats/cookedrabbit",
+    "#forge:cookedmeats/cookedsalmon",
+    "#forge:cookedmeats/cookedfrog",
+    "#forge:cookedmeats/cookedcrab",
+    "#forge:cookedmeats/cookedhorse"
+  ]
+}

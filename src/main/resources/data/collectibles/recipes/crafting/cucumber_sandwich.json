@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:cuttingboarditem",
+      "item": "pamhc2foodcore:cheeseitem",
+      "item": "pamhc2crops:cucumberitem",
+      "item": "pamhc2crops:creamitem",
+      "item": "minecraft:bread"
+    }
+  ],
+  "result": {
+    "item": "collectibles:cucumber_sandwich",
+    "item": "pamhc2foodcore:cuttingboarditem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

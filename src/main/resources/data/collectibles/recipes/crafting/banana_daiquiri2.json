@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "simplefarming:banana",
+      "item": "minecraft:glass_bottle",
+      "item": "minecraft:snowball"
+    }
+
+
+  ],
+
+  "result": {"item": "collectibles:banana_daiquiri"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "simplefarming"
+    }
+  ]
+}

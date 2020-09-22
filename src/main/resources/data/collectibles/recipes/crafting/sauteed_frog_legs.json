@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:skilletitem",
+      "item": "pamhc2foodcore:butter",
+      "item": "quark:frog_leg",
+      "item": "quark:frog_leg"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:sauteed_frog_legs",
+    "item": "pamhc2foodcore:skilletitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "quark"
+    }
+  ]
+}

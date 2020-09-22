@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:mixingbowlitem",
+      "item": "pamhc2foodcore:icecreamitem",
+      "item": "pamhc2foodcore:cocoapowderitem",
+      "tag": "forge:cherries",
+      "tag": "forge:strawberries",
+      "tag": "forge:bananas"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:banana_split",
+    "item": "pamhc2foodcore:mixingbowlitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

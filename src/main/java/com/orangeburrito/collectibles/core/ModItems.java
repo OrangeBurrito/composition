@@ -21,7 +21,7 @@ public class ModItems {
     public static final RegistryObject<Item> BAGUETTE = ITEMS.register("baguette", () -> new BaguetteItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(5).saturation(6).build())));
 //    public static final RegistryObject<Item> CHICKEN_NUGGET = ITEMS.register("chicken_nugget", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(1).saturation(0.8F).effect(() -> new EffectInstance(Effects.POISON, 60, 1), 0.3f).build())));
 //    public static final RegistryObject<Item> COOKED_CHICKEN_NUGGET = ITEMS.register("cooked_chicken_nugget", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(1.4F).build())));
-    public static final RegistryObject<Item> MEATBUN = ITEMS.register("meatbun", () -> new MeatbunItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(4).saturation(3).effect(() -> new EffectInstance(Effects.INSTANT_HEALTH, 1, 1), 1).build())));
+    public static final RegistryObject<Item> MEATBUN = ITEMS.register("meatbun", () -> new MeatbunItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(4).saturation(3).effect(() -> new EffectInstance(Effects.INSTANT_HEALTH, 1, 0), 1).build())));
     public static final RegistryObject<Item> SHOTGA_COLA = ITEMS.register("shotga_cola", () -> new ShotgaColaItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(15).saturation(6.0F).effect(() -> new EffectInstance(Effects.SPEED, 1200, 1), 1).build())));
     public static final RegistryObject<Item> HOTDOG = ITEMS.register("hotdog", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(10).build())));
     public static final RegistryObject<Item> NACHOS = ITEMS.register("nachos", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(9.5F).build())));
@@ -32,24 +32,20 @@ public class ModItems {
     public static final RegistryObject<Item> PAD_THAI = ITEMS.register("pad_thai", () -> new PadThaiItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(9.6F).build())));
     public static final RegistryObject<Item> PHO = ITEMS.register("pho", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(9.6F).build())));
     public static final RegistryObject<Item> PANEER = ITEMS.register("paneer", () -> new PaneerItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(4).saturation(4.5F).build())));
-    public static final RegistryObject<Item> FRUIT_SALAD = ITEMS.register("fruit_salad", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(8).build())));
+    public static final RegistryObject<Item> FRUIT_SALAD = ITEMS.register("fruit_salad", () -> new BowlItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(8).build())));
     public static final RegistryObject<Item> CUCUMBER_SANDWICH = ITEMS.register("cucumber_sandwich", () -> new CucumberSandwichItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(9).build())));
     public static final RegistryObject<Item> APPLE_SLICES = ITEMS.register("apple_slices", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(1).saturation(1).fastToEat().build())));
+    public static final RegistryObject<Item> LEMONADE = ITEMS.register("lemonade", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(7).effect(() -> new EffectInstance(Effects.SPEED, 600, 0), 1).build())));
     public static final RegistryObject<Item> BANANA_DAIQUIRI = ITEMS.register("banana_daiquiri", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(5).saturation(7).build())));
-    public static final RegistryObject<Item> LEMONADE = ITEMS.register("lemonade", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(7).effect(() -> new EffectInstance(Effects.SPEED, 600, 1), 1).build())));
     public static final RegistryObject<Item> PEACH_SANGRIA = ITEMS.register("peach_sangria", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(7).build())));
     public static final RegistryObject<Item> PINA_COLADA = ITEMS.register("pina_colada", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(7.5F).build())));
     public static final RegistryObject<Item> PRISMATIC_PUNCH = ITEMS.register("prismatic_punch", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(4).saturation(12).build())));
-    public static final RegistryObject<Item> DARKNESS_SMOOTHIE = ITEMS.register("darkness_smoothie", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(7).effect(() -> new EffectInstance(Effects.REGENERATION, 600, 1), 1).build())));
+    public static final RegistryObject<Item> DARKNESS_SMOOTHIE = ITEMS.register("darkness_smoothie", () -> new DarknessSmoothieItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(7).effect(() -> new EffectInstance(Effects.REGENERATION, 600, 1), 1).build())));
     public static final RegistryObject<Item> TROPICAL_SMOOTHIE = ITEMS.register("tropical_smoothie", () -> new DrinkItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(3).saturation(7).build())));
     public static final RegistryObject<Item> MILKSHAKE = ITEMS.register("milkshake", () -> new MilkshakeItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(7.5F).build())));
     public static final RegistryObject<Item> ICE_CREAM = ITEMS.register("ice_cream", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(10).build())));
     public static final RegistryObject<Item> BANANA_SPLIT = ITEMS.register("banana_split", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(10).saturation(10).build())));
 
-    public static final RegistryObject<HorseMaskItem> HORSE_MASK = ITEMS.register("horse_mask", () -> new HorseMaskItem(ModArmorMaterial.LEATHER, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
-
-
-
-
+//    public static final RegistryObject<HorseMaskItem> HORSE_MASK = ITEMS.register("horse_mask", () -> new HorseMaskItem(ModArmorMaterial.LEATHER, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
 //    public static final RegistryObject<Item> GRILLED_SQUIRREL = ITEMS.register("grilled_squirrel", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(15).saturation(6.0F).build())));
 }

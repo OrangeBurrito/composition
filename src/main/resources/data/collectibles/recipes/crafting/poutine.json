@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:mixingbowlitem",
+      "item": "pamhc2foodcore:cheeseitem",
+      "item": "pamhc2foodcore:friesitem",
+      "item": "collectibles:gravy"
+    }
+  ],
+  "result": {
+    "item": "collectibles:poutine",
+    "item": "pamhc2foodcore:mixingbowlitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:potitem",
+      "item": "pamhc2foodcore:noodlesitem",
+      "item": "pamhc2foodcore:stockitem",
+      "item": "pamhc2crops:gingeritem",
+      "item": "pamhc2crops:onionitem",
+      "item": "pamhc2crops:radishitem",
+      "item": "minecraft:beef"
+    }
+  ],
+  "result": {
+    "item": "collectibles:pho",
+    "item": "pamhc2foodcore:potitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhccrops",
+      "modid": "pamhc2foodextended"
+    }
+  ]
+}

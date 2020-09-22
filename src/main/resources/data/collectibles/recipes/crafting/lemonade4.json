@@ -8,12 +8,11 @@
       "item": "minecraft:glass_bottle",
       "item": "minecraft:honey_bottle"
     }
-
-
   ],
 
   "result": {
-    "item": "collectibles:lemonade"
+    "item": "collectibles:lemonade",
+    "item": "minecraft:glass_bottle"
   },
   "conditions": [
     {

@@ -1,7 +1,9 @@
 package com.orangeburrito.collectibles;
 
+import com.orangeburrito.collectibles.client.ClientReference;
 import com.orangeburrito.collectibles.core.ModBlocks;
 import com.orangeburrito.collectibles.core.ModItems;
+import com.orangeburrito.common.ISidedReference;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
@@ -16,6 +18,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.fml.common.Mod;
@@ -35,6 +38,8 @@ public class Collectibles {
 
     public static final String MOD_ID = "collectibles";
 
+//    public static final ISidedReference SIDED_SYSTEM = DistExecutor.runForDist(() -> ClientReference::new, );
+
     public static Collectibles instance;
 
     public Collectibles() {
@@ -46,6 +51,7 @@ public class Collectibles {
         ModBlocks.BLOCKS.register(modEventBus);
 
         instance = this;
+//        SIDED_SYSTEM.setup(modEventBus, MinecraftForge.EVENT_BUS);
         MinecraftForge.EVENT_BUS.register(this);
     }
 

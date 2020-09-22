@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:skilletitem",
+      "item": "pamhc2foodcore:noodlesitem",
+      "item": "pamhc2crops:peanutitem",
+      "item": "minecraft:egg",
+      "item": "pamhc2foodextended:firmtofuitem",
+      "item": "pamhc2crops:chilipepperitem",
+      "item": "pamhc2trees:limeitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:pad_thai",
+    "item": "pamhc2foodcore:skilletitem"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhctrees",
+      "modid": "pamhccrops",
+      "modid": "pamhc2foodextended"
+    }
+  ]
+}

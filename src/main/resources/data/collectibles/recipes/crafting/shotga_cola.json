@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:potitem",
+      "item": "pamhc2crops:coffeebeanitem",
+      "item": "minecraft:water_bottle",
+      "item": "minecraft:sugar"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:shotga_cola"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2crops"
+    }
+  ]
+}
