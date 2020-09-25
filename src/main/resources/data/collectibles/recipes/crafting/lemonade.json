@@ -4,15 +4,20 @@
   "ingredients":
   [
     {
-      "item": "pamhc2trees:lemonitem",
-      "item": "minecraft:glass_bottle",
+      "tag": "forge:lemons"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
       "item": "minecraft:sugar"
     }
 
 
   ],
 
-  "result": {"item": "collectibles:lemonade"
+  "result": {
+    "item": "collectibles:lemonade"
   },
   "conditions": [
     {

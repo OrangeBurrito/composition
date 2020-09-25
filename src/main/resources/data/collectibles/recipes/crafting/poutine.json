@@ -4,15 +4,20 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:mixingbowlitem",
-      "item": "pamhc2foodcore:cheeseitem",
-      "item": "pamhc2foodcore:friesitem",
+      "tag": "forge:tool_mixingbowl"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "item": "pamhc2foodcore:friesitem"
+    },
+    {
       "item": "collectibles:gravy"
     }
   ],
   "result": {
-    "item": "collectibles:poutine",
-    "item": "pamhc2foodcore:mixingbowlitem"
+    "item": "collectibles:poutine"
   },
   "conditions": [
     {

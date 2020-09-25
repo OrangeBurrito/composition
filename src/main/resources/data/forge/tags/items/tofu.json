@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:tofu/tofu",
+    "#forge:tofu/tofu_sf"
+  ]
+}

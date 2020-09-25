@@ -4,14 +4,17 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:cuttingboarditem",
-      "item": "pamhc2foodcore:cheeseitem",
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
       "item": "pamhc2foodextended:tortillaitem"
     }
   ],
   "result": {
-    "item": "collectibles:nachos",
-    "item": "pamhc2foodcore:cuttingboarditem"
+    "item": "collectibles:nachos"
   },
   "conditions": [
     {

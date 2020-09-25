@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:salt/salt",
+    "#forge:salt/salt_mk"
+  ]
+}

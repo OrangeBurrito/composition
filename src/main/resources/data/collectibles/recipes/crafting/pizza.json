@@ -4,16 +4,23 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:bakewareitem",
-      "item": "pamhc2foodcore:doughitem",
-      "item": "pamhc2foodcore:cheeseitem",
-      "item": "pamhc2crops:tomatoitem",
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "item": "pamhc2foodcore:doughitem"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
       "item": "pamhc2foodextended:pepperoniitem"
     }
   ],
   "result": {
-    "item": "collectibles:pizza",
-    "item": "pamhc2foodcore:bakewareitem"
+    "item": "collectibles:pizza"
   },
   "conditions": [
     {

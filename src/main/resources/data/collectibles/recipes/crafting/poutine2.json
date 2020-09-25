@@ -4,21 +4,26 @@
   "ingredients":
   [
     {
-      "item": "simplefarming:cheese_slice",
-      "item": "pamhc2foodcore:mixingbowlitem",
-      "item": "pamhc2foodcore:friesitem",
+      "tag": "forge:tool_mixingbowl"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "item": "xercamod:potato_fries"
+    },
+    {
       "item": "collectibles:gravy"
     }
   ],
   "result": {
-    "item": "collectibles:poutine",
-    "item": "pamhc2foodcore:mixingbowlitem"
+    "item": "collectibles:poutine"
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "pamhc2foodcore",
-      "modid": "simplefarming"
+      "modid": "xercamod"
     }
   ]
 }

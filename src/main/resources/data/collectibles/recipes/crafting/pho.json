@@ -4,25 +4,32 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:potitem",
-      "item": "pamhc2foodcore:noodlesitem",
-      "item": "pamhc2foodcore:stockitem",
-      "item": "pamhc2crops:gingeritem",
-      "item": "pamhc2crops:onionitem",
-      "item": "pamhc2crops:radishitem",
+      "tag": "forge:tool_pot"
+    },
+    {
+      "tag": "forge:noodles"
+    },
+    {
+      "item": "pamhc2foodcore:stockitem"
+    },
+    {
+      "item": "pamhc2crops:gingeritem"
+    },
+    {
+      "item": "pamhc2crops:onionitem"
+    },
+    {
       "item": "minecraft:beef"
     }
   ],
   "result": {
-    "item": "collectibles:pho",
-    "item": "pamhc2foodcore:potitem"
+    "item": "collectibles:pho"
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "pamhc2foodcore",
-      "modid": "pamhccrops",
-      "modid": "pamhc2foodextended"
+      "modid": "pamhc2crops"
     }
   ]
 }

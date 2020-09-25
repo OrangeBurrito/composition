@@ -4,16 +4,23 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:cuttingboarditem",
-      "item": "pamhc2foodcore:cheeseitem",
-      "item": "pamhc2crops:cucumberitem",
-      "item": "pamhc2crops:creamitem",
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "item": "pamhc2crops:cucumberitem"
+    },
+    {
+      "item": "pamhc2foodcore:creamitem"
+    },
+    {
       "item": "minecraft:bread"
     }
   ],
   "result": {
-    "item": "collectibles:cucumber_sandwich",
-    "item": "pamhc2foodcore:cuttingboarditem"
+    "item": "collectibles:cucumber_sandwich"
   },
   "conditions": [
     {

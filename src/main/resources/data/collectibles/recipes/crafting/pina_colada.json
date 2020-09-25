@@ -4,8 +4,12 @@
   "ingredients":
   [
     {
-      "item": "pamhc2crops:pineappleitem",
-      "item": "pamhc2trees:coconutitem",
+      "item": "pamhc2crops:pineappleitem"
+    },
+    {
+      "item": "pamhc2trees:coconutitem"
+    },
+    {
       "item": "minecraft:glass_bottle"
     }
 

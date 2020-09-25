@@ -4,26 +4,35 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:skilletitem",
-      "item": "pamhc2foodcore:noodlesitem",
-      "item": "pamhc2crops:peanutitem",
-      "item": "minecraft:egg",
-      "item": "pamhc2foodextended:firmtofuitem",
-      "item": "pamhc2crops:chilipepperitem",
-      "item": "pamhc2trees:limeitem"
+      "tag": "forge:tool_pot"
+    },
+    {
+      "tag": "forge:noodles"
+    },
+    {
+      "tag": "forge:peanuts"
+    },
+    {
+      "tag": "forge:tofu"
+    },
+    {
+      "tag": "forge:peppers"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "tag": "forge:limes"
     }
   ],
   "result": {
-    "item": "collectibles:pad_thai",
-    "item": "pamhc2foodcore:skilletitem"
+    "item": "collectibles:pad_thai"
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
       "modid": "pamhc2foodcore",
-      "modid": "pamhctrees",
-      "modid": "pamhccrops",
-      "modid": "pamhc2foodextended"
+      "modid": "pamhc2crops"
     }
   ]
 }

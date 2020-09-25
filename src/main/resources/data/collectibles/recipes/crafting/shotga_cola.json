@@ -4,9 +4,15 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:potitem",
-      "item": "pamhc2crops:coffeebeanitem",
-      "item": "minecraft:water_bottle",
+      "tag": "forge:tool_pot"
+    },
+    {
+      "item": "pamhc2crops:coffeebeanitem"
+    },
+    {
+      "item": "minecraft:potion{Potion:water}"
+    },
+    {
       "item": "minecraft:sugar"
     }
 

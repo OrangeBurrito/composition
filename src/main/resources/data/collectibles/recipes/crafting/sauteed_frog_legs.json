@@ -4,24 +4,22 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:skilletitem",
-      "item": "pamhc2foodcore:butter",
-      "item": "quark:frog_leg",
+      "tag": "forge:tool_skillet"
+    },
+    {
+      "tag": "forge:butter"
+    },
+    {
       "item": "quark:frog_leg"
     }
-
-
   ],
-
   "result": {
-    "item": "collectibles:sauteed_frog_legs",
-    "item": "pamhc2foodcore:skilletitem"
+    "item": "collectibles:sauteed_frog_legs"
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore",
-      "modid": "quark"
+      "modid": "pamhc2foodcore"
     }
   ]
 }

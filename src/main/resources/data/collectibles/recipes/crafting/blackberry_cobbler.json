@@ -4,24 +4,26 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:bakewareitem",
-      "item": "pamhc2foodcore:doughitem",
-      "tag": "forge:blackberries",
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "item": "pamhc2foodcore:doughitem"
+    },
+    {
+      "tag": "forge:blackberries"
+    },
+    {
       "item": "minecraft:sugar"
     }
-
-
   ],
 
   "result": {
-    "item": "collectibles:blackberry_cobbler",
-    "item": "pamhc2foodcore:bakewareitem"
+    "item": "collectibles:blackberry_cobbler"
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore",
-      "modid": "pamhc2trees"
+      "modid": "pamhc2foodcore"
     }
   ]
 }

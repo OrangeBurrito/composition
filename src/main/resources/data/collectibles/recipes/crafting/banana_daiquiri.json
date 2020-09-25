@@ -4,15 +4,18 @@
   "ingredients":
   [
     {
-      "item": "pamhc2trees:bananaitem",
-      "item": "minecraft:glass_bottle",
+      "tag": "forge:bananas"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
       "item": "minecraft:snowball"
     }
-
-
   ],
 
-  "result": {"item": "collectibles:banana_daiquiri"
+  "result": {
+    "item": "collectibles:banana_daiquiri"
   },
   "conditions": [
     {

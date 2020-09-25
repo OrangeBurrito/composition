@@ -4,9 +4,15 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:potitem",
-      "item": "pamhc2foodcore:vinegaritem",
-      "item": "minecraft:milk_bucket",
+      "tag": "forge:tool_pot"
+    },
+    {
+      "item": "pamhc2foodcore:vinegaritem"
+    },
+    {
+      "item": "pamhc2foodcore:freshmilkitem"
+    },
+    {
       "item": "collectibles:lemonade"
     }
 
@@ -14,9 +20,7 @@
   ],
 
   "result": {
-    "item": "collectibles:lemonade",
-    "item": "minecraft:bucket",
-    "item": "pamhc2foodcore:potitem"
+    "item": "collectibles:paneer"
   },
   "conditions": [
     {

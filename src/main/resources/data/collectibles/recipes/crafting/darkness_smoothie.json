@@ -4,15 +4,18 @@
   "ingredients":
   [
     {
-      "item": "pamhc2crops:elderberryitem",
-      "item": "pamhc2crops:blackberryitem",
+      "tag": "forge:elderberries"
+    },
+    {
+      "tag": "forge:blackberries"
+    },
+    {
       "item": "minecraft:glass_bottle"
     }
-
-
   ],
 
-  "result": {"item": "collectibles:darkness_smoothie"
+  "result": {
+    "item": "collectibles:darkness_smoothie"
   },
   "conditions": [
     {

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "===",
+    "=#=",
+    "=o="
+  ],
+  "key": {
+    "=": {
+      "item": "minecraft:iron_ingot"
+    }, "#": {
+      "item": "minecraft:black_stained_glass_pane"
+    }, "o": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "result": {
+    "item": "collectibles:crt",
+    "count": 1
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:cheese/cheese",
+    "#forge:cheese/cheese_sf"
+  ]
+}

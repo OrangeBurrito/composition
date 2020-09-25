@@ -4,21 +4,36 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:bakewareitem",
-      "item": "pamhc2foodcore:doughitem",
-      "tag": "pamhc2foodcore:butteritem",
-      "ore": "cobblestone",
-      "ore": "cobblestone",
-      "ore": "cobblestone",
-      "ore": "cobblestone",
-      "ore": "cobblestone",
-      "ore": "cobblestone"
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "item": "pamhc2foodcore:doughitem"
+    },
+    {
+      "item": "pamhc2foodcore:butteritem"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:cobblestone"
     }
   ],
 
   "result": {
-    "item": "collectibles:peach_cobbler",
-    "item": "pamhc2foodcore:bakewareitem"
+    "item": "collectibles:cobblestone_cobbler"
   },
   "conditions": [
     {

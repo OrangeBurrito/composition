@@ -4,8 +4,12 @@
   "ingredients":
   [
     {
-      "item": "pamhc2trees:starfruititem",
-      "item": "pamhc2trees:dragonfruititem",
+      "item": "pamhc2trees:starfruititem"
+    },
+    {
+      "item": "pamhc2trees:dragonfruititem"
+    },
+    {
       "item": "minecraft:glass_bottle"
     }
 

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:noodles/noodles",
+    "#forge:noodles/noodles_sf"
+  ]
+}

@@ -4,21 +4,25 @@
   "ingredients":
   [
     {
-      "item": "pamhc2trees:mangoitem",
-      "item": "pamhc2crops:pineappleitem",
+      "tag": "forge:mangoes"
+    },
+    {
+      "item": "pamhc2crops:pineappleitem"
+    },
+    {
       "item": "minecraft:glass_bottle"
     }
 
 
   ],
 
-  "result": {"item": "collectibles:tropical_smoothie"
+  "result": {
+    "item": "collectibles:tropical_smoothie"
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2crops",
-      "modid": "pamhc2trees"
+      "modid": "pamhc2crops"
     }
   ]
 }

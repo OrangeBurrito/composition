@@ -4,9 +4,15 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:bakewareitem",
-      "item": "pamhc2foodcore:doughitem",
-      "tag": "pamhc2trees:peachitem",
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "item": "pamhc2foodcore:doughitem"
+    },
+    {
+      "item": "pamhc2trees:peachitem"
+    },
+    {
       "item": "minecraft:sugar"
     }
 
@@ -14,8 +20,7 @@
   ],
 
   "result": {
-    "item": "collectibles:peach_cobbler",
-    "item": "pamhc2foodcore:bakewareitem"
+    "item": "collectibles:peach_cobbler"
   },
   "conditions": [
     {

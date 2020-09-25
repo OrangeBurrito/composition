@@ -4,7 +4,9 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:stockitem",
+      "item": "pamhc2foodcore:stockitem"
+    },
+    {
       "item": "pamhc2foodcore:flouritem"
     }
   ],

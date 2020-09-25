@@ -69,6 +69,15 @@
     "#forge:fruits/raspberries",
     "#forge:fruits/raspberry",
     "#forge:fruits/strawberries",
-    "#forge:fruits/strawberry"
+    "#forge:fruits/strawberry",
+    "fruittrees:citron",
+    "fruittrees:mandarin",
+    "fruittrees:orange",
+    "#forge:limes/lime_ft",
+    "#forge:lemons/lemon_ft",
+    "fruittrees:grapefruit",
+    "fruittrees:pomelo",
+    "#forge:cherries/cherry_ft",
+    "fruittrees:redlove"
   ]
 }

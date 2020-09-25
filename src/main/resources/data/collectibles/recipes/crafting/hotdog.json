@@ -4,8 +4,12 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:skilletitem",
-      "item": "minecraft:porkchop",
+      "tag": "forge:tool_skillet"
+    },
+    {
+      "tag": "forge:sausages"
+    },
+    {
       "item": "minecraft:bread"
     }
 
@@ -13,8 +17,7 @@
   ],
 
   "result": {
-    "item": "collectibles:hotdog",
-    "item": "pamhc2foodcore:skilletitem"
+    "item": "collectibles:hotdog"
   },
   "conditions": [
     {
