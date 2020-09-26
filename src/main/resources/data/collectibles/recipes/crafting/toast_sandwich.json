@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:toastitem"
+    },
+    {
+      "item": "pamhc2foodcore:toastitem"
+    },
+    {
+      "item": "pamhc2foodextended:blackpepperitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:toast_sandwich"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

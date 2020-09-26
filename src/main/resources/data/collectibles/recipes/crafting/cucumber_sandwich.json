@@ -16,7 +16,7 @@
       "item": "pamhc2foodcore:creamitem"
     },
     {
-      "item": "minecraft:bread"
+      "tag": "forge:bread"
     }
   ],
   "result": {

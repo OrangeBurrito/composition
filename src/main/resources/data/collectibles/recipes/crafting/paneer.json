@@ -10,7 +10,7 @@
       "item": "pamhc2foodcore:vinegaritem"
     },
     {
-      "item": "pamhc2foodcore:freshmilkitem"
+      "tag": "forge:milk"
     },
     {
       "item": "collectibles:lemonade"

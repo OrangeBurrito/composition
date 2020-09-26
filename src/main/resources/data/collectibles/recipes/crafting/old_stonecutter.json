@@ -2,12 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "## ",
-    "## ",
+    "EE ",
     "   "
   ],
   "key": {
     "#": {
       "item": "minecraft:cobblestone"
+    }, "E": {
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

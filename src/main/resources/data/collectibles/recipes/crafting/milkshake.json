@@ -10,12 +10,11 @@
       "item": "minecraft:glass_bottle"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk"
     },
     {
       "item": "minecraft:snowball"
-    },
-
+    }
   ],
 
   "result": {

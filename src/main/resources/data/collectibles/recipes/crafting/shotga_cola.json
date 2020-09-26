@@ -10,10 +10,12 @@
       "item": "pamhc2crops:coffeebeanitem"
     },
     {
-      "item": "minecraft:potion{Potion:water}"
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'minecraft:water'}"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     }
 
 

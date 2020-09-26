@@ -17,3 +17,4 @@ public class BowlItem extends Item {
         return new ItemStack(Items.BOWL);
     }
 }
+

@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:cookedmeats"
+    },
+    {
+      "tag": "forge:lettuce"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "item": "pamhc2foodcore:mayonaiseitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:footlong"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

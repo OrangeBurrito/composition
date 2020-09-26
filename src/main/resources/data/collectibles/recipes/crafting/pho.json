@@ -13,10 +13,10 @@
       "item": "pamhc2foodcore:stockitem"
     },
     {
-      "item": "pamhc2crops:gingeritem"
+      "tag": "forge:ginger"
     },
     {
-      "item": "pamhc2crops:onionitem"
+      "tag": "forge:onion"
     },
     {
       "item": "minecraft:beef"
@@ -28,8 +28,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore",
-      "modid": "pamhc2crops"
+      "modid": "pamhc2foodcore"
     }
   ]
 }

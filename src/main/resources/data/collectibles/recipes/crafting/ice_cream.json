@@ -9,10 +9,10 @@
       "tag": "forge:cherries"
     },
     {
-      "item": "minecraft:sugar"
+      "tag": "forge:sugar"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "tag": "forge:milk"
     },
     {
       "item": "minecraft:snowball"
@@ -20,8 +20,7 @@
   ],
 
   "result": {
-    "item": "collectibles:ice_cream",
-    "item": "minecraft:bucket"
+    "item": "collectibles:ice_cream"
   },
   "conditions": [
     {
