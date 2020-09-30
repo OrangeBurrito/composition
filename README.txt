@@ -14,6 +14,4 @@ Foods:
 
 P.S.
 Recipes won't appear if Pam's Harvestcraft 2 is not installed.
-
-P.S.P.S. at the moment saturation is absolutely broken.
-Next commit will fix this.
+Pad Thai and Pho recipes will not appear if Simple Farming is not installed.
