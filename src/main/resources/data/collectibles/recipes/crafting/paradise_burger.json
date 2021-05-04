@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_skillet"
+    },
+    {
+      "tag": "forge:rawbeef"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "tag": "forge:pickles"
+    },
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "tag": "forge:lettuce"
+    },
+    {
+      "item": "pamhc2foodextended:ketchupitem"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:paradise_burger"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2foodextended"
+    }
+  ]
+}

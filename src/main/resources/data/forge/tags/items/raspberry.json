@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:raspberry/raspberry",
+    "#forge:raspberry/raspberry_sf"
+  ]
+}

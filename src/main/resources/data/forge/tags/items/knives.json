@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:knives/diamond_fillet_knife",
+    "#forge:knives/gold_fillet_knife",
+    "#forge:knives/iron_fillet_knife",
+    "#forge:knives/neptunium_fillet_knife",
+    "#forge:knives/stone_fillet_knife",
+    "#forge:knives/wooden_fillet_knife",
+    "#forge:knives/knife_xm",
+    "#forge:knives/knife_dc"
+  ]
+}

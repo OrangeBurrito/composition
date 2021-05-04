@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:onion"
+    },
+    {
+      "tag": "forge:peppers"
+    },
+    {
+      "tag": "forge:cacti"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "item": "pamhc2trees:avocadoitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:nopales_salad"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

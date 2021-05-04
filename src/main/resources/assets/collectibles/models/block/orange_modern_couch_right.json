@@ -1,0 +1,6 @@
+{
+  "parent": "collectibles:block/modern_couch_right",
+  "textures": {
+    "1": "block/orange_terracotta"
+  }
+}

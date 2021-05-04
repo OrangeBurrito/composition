@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "pamhc2foodcore:batteritem"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "item": "minecraft:red_dye"
+    },
+    {
+      "item": "pamhc2foodcore:cocoapowderitem"
+    }
+
+  ],
+  "result": {
+    "item": "collectibles:red_velvet_cake"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_pot"
+    },
+    {
+      "item": "pamhc2trees:avocadoitem"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "tag": "forge:limes"
+    },
+    {
+      "item": "pamhc2crops:spiceleafitem"
+    },
+    {
+      "item": "pamhc2foodcore:stockitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:cream_of_avocado_soup"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2trees",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "collectibles:raw_green_eggs_and_ham"
+  },
+  "result": "collectibles:green_eggs_and_ham",
+  "experience": 0.4,
+  "cookingtime": 150
+}

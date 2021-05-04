@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_pot"
+    },
+    {
+      "item": "simplefarming:noodles"
+    },
+    {
+      "item": "pamhc2foodcore:stockitem"
+    },
+    {
+      "tag": "forge:ginger"
+    },
+    {
+      "tag": "forge:onion"
+    },
+    {
+      "item": "minecraft:beef"
+    }
+  ],
+  "result": {
+    "item": "collectibles:pho"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

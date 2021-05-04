@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:venison/venison",
+    "#forge:venison/venison_mw"
+  ]
+}

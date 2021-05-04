@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ginger/ginger",
+    "#forge:ginger/ginger_sf"
+  ]
+}

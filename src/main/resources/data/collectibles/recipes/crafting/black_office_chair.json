@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#_ ",
+    "SB#",
+    "oIo"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_wool"
+    },
+    "_": {
+      "item": "minecraft:black_carpet"
+    },
+    "S": {
+      "item": "minecraft:string"
+    },
+    "B": {
+      "item": "minecraft:slime_ball"
+    },
+    "I": {
+      "item": "minecraft:iron_bars"
+    },
+    "o": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "collectibles:black_office_chair",
+    "count": 1
+  }
+}

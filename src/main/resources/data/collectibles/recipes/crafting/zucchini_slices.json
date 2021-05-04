@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2crops:zucchiniitem"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:knives"
+    }
+  ],
+  "result": {
+    "item": "collectibles:zucchini_slices",
+    "count": 2
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

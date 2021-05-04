@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2trees:peachitem"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+  ],
+
+  "result": {"item": "collectibles:peach_sangria"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

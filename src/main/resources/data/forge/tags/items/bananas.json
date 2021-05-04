@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:bananas/banana",
+    "#forge:bananas/banana_sf"
+  ]
+}

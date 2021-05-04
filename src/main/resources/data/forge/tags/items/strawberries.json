@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:strawberries/strawberries",
+    "#forge:strawberries/strawberries_sf"
+  ]
+}

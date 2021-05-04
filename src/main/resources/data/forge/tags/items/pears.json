@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:pears/pear",
+    "#forge:pears/pear_sf"
+  ]
+}

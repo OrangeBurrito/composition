@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B ",
+    "B# ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_log"
+    }, "B": {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  },
+  "result": {
+    "item": "collectibles:modern_acacia_planks",
+    "count": 16
+  }
+}

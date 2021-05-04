@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_saucepan"
+    },
+    {
+      "tag": "forge:chocolatebar"
+    },
+    {
+      "tag": "forge:cherries"
+    },
+    {
+      "item": "collectibles:toasted_coconut"
+    }
+  ],
+  "result": {
+    "item": "collectibles:cherry_coconut_chocolate_bar"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

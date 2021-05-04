@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "collectibles:cherry_ice_cream"
+    },
+    {
+      "item": "collectibles:pistachio_ice_cream"
+    },
+    {
+      "item": "collectibles:vanilla_ice_cream"
+    }
+  ],
+  "result": {
+    "item": "collectibles:spumoni_ice_cream",
+    "count": 3
+  }
+}

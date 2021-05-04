@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "tag": "forge:dates"
+    },
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:nuts"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:date_nut_bread"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

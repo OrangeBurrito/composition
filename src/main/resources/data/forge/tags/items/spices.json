@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:spices/spiceleaf",
+    "#forge:spices/mustardseeds",
+    "#forge:spices/cumin"
+  ]
+}

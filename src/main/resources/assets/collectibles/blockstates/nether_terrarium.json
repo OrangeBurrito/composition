@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "collectibles:block/nether_terrarium" },
+    "facing=south": { "model": "collectibles:block/nether_terrarium", "y": 180 },
+    "facing=west":  { "model": "collectibles:block/nether_terrarium", "y": 270 },
+    "facing=east":  { "model": "collectibles:block/nether_terrarium", "y": 90 }
+  }
+}

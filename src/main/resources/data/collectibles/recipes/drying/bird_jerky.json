@@ -1,0 +1,16 @@
+{
+  "type": "silents_mechanisms:drying",
+  "process_time": 400,
+  "ingredient": {
+    "tag": "forge:rawbirdmeats"
+  },
+  "result": {
+    "item": "collectibles:bird_jerky"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "silents_mechanisms"
+    }
+  ]
+}

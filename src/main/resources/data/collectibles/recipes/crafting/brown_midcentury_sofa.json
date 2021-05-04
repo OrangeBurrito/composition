@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#/ ",
+    "L##",
+    "LSL"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_wool"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    },
+    "S": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "result": {
+    "item": "collectibles:brown_midcentury_sofa",
+    "count": 1
+  }
+}

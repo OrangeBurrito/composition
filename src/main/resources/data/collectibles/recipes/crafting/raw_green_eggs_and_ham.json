@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "collectibles:raw_ham"
+    },
+    {
+      "item": "minecraft:green_dye"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:raw_green_eggs_and_ham"
+  }
+}

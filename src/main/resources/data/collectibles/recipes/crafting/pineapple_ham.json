@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "item": "pamhc2crops:pineappleitem"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "tag": "forge:cherries"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:pineapple_ham"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "collectibles:blocks/modern_spruce_planks",
+    "top": "collectibles:blocks/modern_spruce_planks",
+    "side": "collectibles:blocks/modern_spruce_planks"
+  }
+}

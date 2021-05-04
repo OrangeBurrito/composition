@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:peanuts/peanut",
+    "#forge:peanuts/peanut_sf"
+  ]
+}

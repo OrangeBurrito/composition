@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:pickles/pickle",
+    "#forge:pickles/pickle_sf"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_pot"
+    },
+    {
+      "item": "simplefarming:noodles"
+    },
+    {
+      "tag": "forge:limes"
+    },
+    {
+      "tag": "forge:tofu"
+    },
+    {
+      "tag": "forge:peppers"
+    },
+    {
+      "tag": "forge:peanuts"
+    },
+    {
+      "item": "minecraft:egg"
+    }
+  ],
+  "result": {
+    "item": "collectibles:pad_thai"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

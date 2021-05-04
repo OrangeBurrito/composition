@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "collectibles:modern_oak_slab",
+    "collectibles:modern_spruce_slab",
+    "collectibles:modern_birch_slab",
+    "collectibles:modern_jungle_slab",
+    "collectibles:modern_acacia_slab",
+    "collectibles:modern_dark_oak_slab"
+  ]
+}

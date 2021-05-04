@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "item": "pamhc2crops:sweetpotatoitem"
+    },
+    {
+      "item": "pamhc2trees:pecanitem"
+    },
+    {
+      "item": "pamhc2foodcore:doughitem"
+    },
+    {
+      "tag": "forge:butter"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:sweet_potato_souffle"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2crops",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

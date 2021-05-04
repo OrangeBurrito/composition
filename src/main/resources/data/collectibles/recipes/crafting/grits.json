@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_pot"
+    },
+    {
+      "item": "pamhc2foodextended:cornmealitem"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:water"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:grits"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2foodextended"
+    }
+  ]
+}

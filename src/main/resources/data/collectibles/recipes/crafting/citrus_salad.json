@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:lettuce"
+    },
+    {
+      "tag": "forge:citrusfruit"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:citrus_salad"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

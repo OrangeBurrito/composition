@@ -1,0 +1,7 @@
+{
+  "parent": "collectibles:block/vintage_beach_chair",
+  "textures": {
+	"1_0": "collectibles:blocks/camouflage_beach_chair",
+	"particle": "collectibles:blocks/camouflage_beach_chair"
+  }
+}

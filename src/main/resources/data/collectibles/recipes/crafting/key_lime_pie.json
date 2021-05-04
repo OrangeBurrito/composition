@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "tag": "forge:limes"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:dough"
+    }
+  ],
+  "result": {
+    "item": "collectibles:key_lime_pie"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

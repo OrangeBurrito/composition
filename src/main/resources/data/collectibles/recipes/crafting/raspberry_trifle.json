@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "tag": "forge:raspberry"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "item": "pamhc2trees:vanillabeanitem"
+    },
+    {
+      "tag": "forge:dough"
+    }
+  ],
+  "result": {
+    "item": "collectibles:raspberry_trifle"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

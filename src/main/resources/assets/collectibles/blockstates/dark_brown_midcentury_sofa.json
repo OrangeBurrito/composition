@@ -1,0 +1,68 @@
+{
+  "variants": {
+    "facing=north,type=single": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_single",
+      "y": 180
+    },
+    "facing=north,type=left": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_left",
+      "y": 180
+    },
+    "facing=north,type=right": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_right",
+      "y": 180
+    },
+    "facing=north,type=middle": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_middle",
+      "y": 180
+    },
+    "facing=east,type=single": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_single",
+      "y": 270
+    },
+    "facing=east,type=left": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_left",
+      "y": 270
+    },
+    "facing=east,type=right": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_right",
+      "y": 270
+    },
+    "facing=east,type=middle": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_middle",
+      "y": 270
+    },
+    "facing=south,type=single": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_single",
+      "y": 0
+    },
+    "facing=south,type=left": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_left",
+      "y": 0
+    },
+    "facing=south,type=right": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_right",
+      "y": 0
+    },
+    "facing=south,type=middle": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_middle",
+      "y": 0
+    },
+    "facing=west,type=single": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_single",
+      "y": 90
+    },
+    "facing=west,type=left": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_left",
+      "y": 90
+    },
+    "facing=west,type=right": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_right",
+      "y": 90
+    },
+    "facing=west,type=middle": {
+      "model": "collectibles:block/dark_brown_midcentury_sofa_middle",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "pamhc2trees:coconutitem"
+  },
+  "result": "collectibles:toasted_coconut",
+  "experience": 0.1,
+  "cookingtime": 150
+}

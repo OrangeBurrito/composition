@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "item": "pamhc2foodcore:batteritem"
+    },
+    {
+      "item": "pamhc2trees:apricotitem"
+    },
+    {
+      "item": "pamhc2crops:pineappleitem"
+    },
+    {
+      "item": "simplefarming:raisins"
+    },
+    {
+      "tag": "forge:juices"
+    },
+    {
+      "tag": "forge:dates"
+    },
+    {
+      "tag": "forge:cherries"
+    }
+  ],
+  "result": {
+    "item": "collectibles:fruitcake"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

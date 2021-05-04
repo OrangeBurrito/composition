@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "item": "pamhc2foodextended:tortillaitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:nachos"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2foodextended"
+    }
+  ]
+}

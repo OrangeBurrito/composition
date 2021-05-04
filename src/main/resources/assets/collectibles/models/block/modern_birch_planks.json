@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "collectibles:blocks/modern_birch_planks"
+  }
+}

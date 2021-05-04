@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "collectibles:block/computer", "y": 180 },
+    "facing=south": { "model": "collectibles:block/computer" },
+    "facing=west":  { "model": "collectibles:block/computer", "y": 90 },
+    "facing=east":  { "model": "collectibles:block/computer", "y": 270 }
+  }
+}

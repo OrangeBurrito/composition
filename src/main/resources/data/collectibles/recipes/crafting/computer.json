@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "===",
+    "B#B",
+    "BrB"
+  ],
+  "key": {
+    "=": {
+      "item": "minecraft:iron_ingot"
+    }, "#": {
+      "item": "minecraft:glass_pane"
+    }, "r": {
+      "item": "minecraft:redstone"
+    }, "B": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "collectibles:computer",
+    "count": 1
+  }
+}

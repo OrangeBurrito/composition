@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "item": "pamhc2trees:pecanitem"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:butter"
+    }
+  ],
+
+  "result": {"item": "collectibles:pecan_pie"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

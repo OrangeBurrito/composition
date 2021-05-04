@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:friedegg/friedegg",
+    "#forge:friedegg/friedegg2",
+    "#forge:friedegg/friedegg3",
+    "#forge:friedegg/friedegg4"
+  ]
+}

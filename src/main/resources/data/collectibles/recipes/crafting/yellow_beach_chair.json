@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "C  ",
+    "LCC",
+    "L L"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:yellow_carpet"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "collectibles:yellow_beach_chair",
+    "count": 2
+  }
+}

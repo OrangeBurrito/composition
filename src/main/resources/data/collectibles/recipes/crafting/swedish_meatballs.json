@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:groundbeefitem"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "pamhc2crops:spiceleafitem"
+    },
+    {
+      "item": "pamhc2trees:nutmegitem"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "result": {
+    "item": "collectibles:swedish_meatballs"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2crops",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

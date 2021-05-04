@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:rice/rice",
+    "#forge:rice/rice_se",
+    "#forge:rice/rice_sf",
+    "#forge:rice/rice_xm"
+  ]
+}

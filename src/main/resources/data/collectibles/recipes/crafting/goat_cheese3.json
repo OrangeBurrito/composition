@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "betteranimalsplus:goatmilk"
+    },
+    {
+      "tag": "forge:vinegar"
+    }
+  ],
+  "result": {
+    "item": "betteranimalsplus:goatcheese",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "betteranimalsplus"
+    }
+  ]
+}

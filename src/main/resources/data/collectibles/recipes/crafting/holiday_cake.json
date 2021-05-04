@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:sugar"
+    },
+    {
+      "tag": "forge:cherries"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "item": "pamhc2crops:spiceleafitem"
+    }
+
+  ],
+  "result": {
+    "item": "collectibles:holiday_cake"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

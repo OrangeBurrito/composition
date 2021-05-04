@@ -1,0 +1,17 @@
+{
+  "type": "silents_mechanisms:drying",
+  "process_time": 350,
+  "ingredient": {
+    "item": "pamhc2crops:grapeitem"
+  },
+  "result": {
+    "item": "simplefarming:raisins",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "silents_mechanisms"
+    }
+  ]
+}

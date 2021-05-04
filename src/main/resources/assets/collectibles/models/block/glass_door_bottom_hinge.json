@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_bottom_rh",
+  "textures": {
+    "bottom": "collectibles:blocks/glass_door_bottom",
+    "top": "collectibles:blocks/glass_door_top"
+  }
+}

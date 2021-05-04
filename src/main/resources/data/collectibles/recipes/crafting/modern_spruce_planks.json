@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B ",
+    "B# ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_log"
+    }, "B": {
+      "item": "minecraft:stripped_spruce_log"
+    }
+  },
+  "result": {
+    "item": "collectibles:modern_spruce_planks",
+    "count": 16
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:dough/create_dough",
+    "#forge:dough/emmer_dough"
+  ]
+}

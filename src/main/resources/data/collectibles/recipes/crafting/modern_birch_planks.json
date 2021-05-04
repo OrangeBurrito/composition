@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B ",
+    "B# ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_log"
+    }, "B": {
+      "item": "minecraft:stripped_birch_log"
+    }
+  },
+  "result": {
+    "item": "collectibles:modern_birch_planks",
+    "count": 16
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:elderberries"
+    },
+    {
+      "tag": "forge:blackberries"
+    },
+    {
+      "item": "minecraft:glass_bottle"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:darkness_smoothie"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

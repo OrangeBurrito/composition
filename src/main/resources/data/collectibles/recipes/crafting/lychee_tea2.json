@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2trees:lycheeitem"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'minecraft:water'}"
+    },
+    {
+      "item": "xercamod:item_tea_leaf"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:lychee_tea"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

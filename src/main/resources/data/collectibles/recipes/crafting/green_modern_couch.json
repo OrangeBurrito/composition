@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCP",
+    " S ",
+    "   "
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "C": {
+      "item": "cfm:green_sofa"
+    },
+    "S": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "collectibles:green_modern_couch"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "cfm"
+    }
+  ]
+}

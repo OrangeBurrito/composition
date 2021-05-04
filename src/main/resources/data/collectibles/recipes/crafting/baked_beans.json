@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_pot"
+    },
+    {
+      "item": "pamhc2crops:beanitem"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:baked_beans"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

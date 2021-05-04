@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_pot"
+    },
+    {
+      "tag": "forge:vinegar"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "item": "collectibles:lemonade"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:paneer"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

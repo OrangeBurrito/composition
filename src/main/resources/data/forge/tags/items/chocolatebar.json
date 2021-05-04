@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:chocolatebar/chocolatebar",
+    "#forge:chocolatebar/chocolate_sf",
+    "#forge:chocolatebar/chocolate_xm"
+  ]
+}

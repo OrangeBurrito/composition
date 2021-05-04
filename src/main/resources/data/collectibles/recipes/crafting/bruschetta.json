@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:bread"
+    },
+    {
+      "item": "simplefarming:olive_oil"
+    },
+    {
+      "tag": "forge:tomatoes"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:bruschetta"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "simplefarming"
+    }
+  ]
+}

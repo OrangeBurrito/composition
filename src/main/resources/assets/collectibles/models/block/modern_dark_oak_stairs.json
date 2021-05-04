@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "collectibles:blocks/modern_dark_oak_planks",
+    "top": "collectibles:blocks/modern_dark_oak_planks",
+    "side": "collectibles:blocks/modern_dark_oak_planks"
+  }
+}

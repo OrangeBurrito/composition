@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " M ",
+    " A ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "tag": "forge:copper"
+    }, "A": {
+      "item": "minecraft:armor_stand"
+    }, "M": {
+      "item": "minecraft:filled_map"
+    }
+  },
+  "result": {
+    "item": "supplementaries:globe"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "supplementaries"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:copper/copper_cr",
+    "#forge:copper/copper_ie",
+    "#forge:copper/copper_mk",
+    "#forge:copper/copper_sm",
+    "#forge:copper/copper_mw"
+  ]
+}

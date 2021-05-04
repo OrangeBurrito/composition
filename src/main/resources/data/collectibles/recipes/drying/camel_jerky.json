@@ -1,0 +1,16 @@
+{
+  "type": "silents_mechanisms:drying",
+  "process_time": 400,
+  "ingredient": {
+    "item": "atum:camel_raw"
+  },
+  "result": {
+    "item": "collectibles:camel_jerky"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "silents_mechanisms"
+    }
+  ]
+}

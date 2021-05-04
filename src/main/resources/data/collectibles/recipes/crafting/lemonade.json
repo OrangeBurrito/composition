@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:lemons"
+    },
+    {
+      "type": "forge:nbt",
+      "item": "minecraft:potion",
+      "nbt": "{Potion:'minecraft:water'}"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+
+
+  ],
+
+  "result": {
+    "item": "collectibles:lemonade"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

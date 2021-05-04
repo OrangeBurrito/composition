@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "W  ",
+    "WWW",
+    "L L"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:orange_wool"
+    },
+    "L": {
+      "tag": "minecraft:logs"
+    }
+  },
+  "result": {
+    "item": "collectibles:groovy_chair",
+    "count": 1
+  }
+}

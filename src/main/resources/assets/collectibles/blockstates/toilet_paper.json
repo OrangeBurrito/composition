@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "collectibles:block/toilet_paper" },
+    "facing=south": { "model": "collectibles:block/toilet_paper", "y": 180 },
+    "facing=west":  { "model": "collectibles:block/toilet_paper", "y": 270 },
+    "facing=east":  { "model": "collectibles:block/toilet_paper", "y": 90 }
+  }
+}

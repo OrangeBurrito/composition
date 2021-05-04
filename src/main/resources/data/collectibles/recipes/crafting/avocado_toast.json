@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:toastitem"
+    },
+    {
+      "item": "pamhc2trees:avocadoitem"
+    },
+    {
+      "tag": "forge:salt"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:avocado_toast"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

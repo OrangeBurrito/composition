@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:softpretzelitem"
+    },
+    {
+      "item": "pamhc2foodextended:mustarditem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:soft_pretzel_mustard"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

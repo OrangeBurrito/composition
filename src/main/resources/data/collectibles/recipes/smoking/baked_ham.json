@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "collectibles:raw_ham"
+  },
+  "result": "collectibles:baked_ham",
+  "experience": 0.40,
+  "cookingtime": 130
+}

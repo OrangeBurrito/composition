@@ -1,0 +1,6 @@
+{
+  "parent": "collectibles:block/white_retro_speaker",
+  "textures": {
+    "0": "collectibles:blocks/black_retro_speaker"
+  }
+}

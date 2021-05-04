@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_saucepan"
+    },
+    {
+      "tag": "forge:pears"
+    },
+    {
+      "item": "pamhc2trees:vanillabeanitem"
+    },
+    {
+      "tag": "forge:sugar"
+    }
+  ],
+  "result": {
+    "item": "collectibles:poached_pear"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

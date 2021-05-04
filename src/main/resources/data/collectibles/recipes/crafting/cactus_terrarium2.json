@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:jars"
+    },
+    {
+      "item": "simplefarming:cactus_crop"
+    },
+    {
+      "item": "minecraft:grass_block"
+    }
+  ],
+  "result": {"item": "collectibles:cactus_terrarium"},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "simplefarming"
+    }
+  ]
+}

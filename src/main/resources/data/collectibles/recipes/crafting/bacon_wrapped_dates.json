@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_bakeware"
+    },
+    {
+      "tag": "forge:dates"
+    },
+    {
+      "tag": "forge:cookedpork"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:bacon_wrapped_dates"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

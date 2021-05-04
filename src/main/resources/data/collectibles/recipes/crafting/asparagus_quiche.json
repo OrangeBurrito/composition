@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_skillet"
+    },
+    {
+      "item": "pamhc2crops:asparagusitem"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:onion"
+    },
+    {
+      "tag": "forge:cheese"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:asparagus_quiche"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

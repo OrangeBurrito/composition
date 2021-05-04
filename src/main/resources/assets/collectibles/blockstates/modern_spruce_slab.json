@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "type=bottom": { "model": "collectibles:block/modern_spruce_slab" },
+    "type=top": { "model": "collectibles:block/modern_spruce_slab_top" },
+    "type=double": { "model": "collectibles:block/modern_spruce_planks" }
+  }
+}

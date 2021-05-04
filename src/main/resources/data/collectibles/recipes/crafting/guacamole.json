@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "item": "pamhc2trees:avocadoitem"
+    },
+    {
+      "tag": "forge:peppers"
+    },
+    {
+      "tag": "forge:tomatoes"
+    },
+    {
+      "tag": "forge:onion"
+    },
+    {
+      "item": "pamhc2crops:spiceleafitem"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:guacamole"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2trees",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

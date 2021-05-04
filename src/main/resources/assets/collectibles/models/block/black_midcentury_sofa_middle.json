@@ -1,0 +1,7 @@
+{
+  "parent": "collectibles:block/midcentury_sofa_middle",
+  "textures": {
+    "0": "collectibles:blocks/midcentury_sofa_black",
+    "particle": "collectibles:blocks/midcentury_sofa_black"
+  }
+}

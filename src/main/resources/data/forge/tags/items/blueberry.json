@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:blueberry/blueberry",
+    "#forge:blueberry/blueberry_sf",
+    "#forge:blueberry/blueberry_dc",
+    "#forge:blueberry/blueberry_byg"
+  ]
+}

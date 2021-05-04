@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:dough"
+    },
+    {
+      "tag": "forge:sugar/sugar"
+    },
+    {
+      "tag": "forge:eggs"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "item": "pamhc2trees:almonditem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:semla",
+    "count": 3
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

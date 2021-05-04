@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_cuttingboard"
+    },
+    {
+      "tag": "forge:cheese"
+    },
+    {
+      "tag": "forge:vegetables/cucumber"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "tag": "forge:bread"
+    }
+  ],
+  "result": {
+    "item": "collectibles:cucumber_sandwich"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2crops"
+    }
+  ]
+}

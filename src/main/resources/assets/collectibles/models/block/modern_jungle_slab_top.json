@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "collectibles:blocks/modern_jungle_planks",
+    "top": "collectibles:blocks/modern_jungle_planks",
+    "side": "collectibles:blocks/modern_jungle_planks"
+  }
+}

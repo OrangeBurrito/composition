@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "pamhc2foodcore:basiccheeseburgeritem"
+    },
+    {
+      "tag": "forge:lettuce"
+    },
+    {
+      "tag": "forge:tomatoes"
+    }
+  ],
+
+  "result": {
+    "item": "collectibles:deluxe_cheeseburger"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore"
+    }
+  ]
+}

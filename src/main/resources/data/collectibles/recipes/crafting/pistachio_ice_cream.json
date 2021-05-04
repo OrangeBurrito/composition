@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:tool_mixingbowl"
+    },
+    {
+      "item": "pamhc2foodcore:icecreamitem"
+    },
+    {
+      "item": "pamhc2trees:pistachioitem"
+    }
+  ],
+  "result": {
+    "item": "collectibles:pistachio_ice_cream"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pamhc2foodcore",
+      "modid": "pamhc2trees"
+    }
+  ]
+}

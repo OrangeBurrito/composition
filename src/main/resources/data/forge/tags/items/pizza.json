@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:pizza/anchovypizza",
+    "#forge:pizza/bbqchickenpizza",
+    "#forge:pizza/meatfeastpizza",
+    "#forge:pizza/pepperonipizza",
+    "#forge:pizza/pineapplepizza",
+    "#forge:pizza/supremepizza"
+  ]
+}

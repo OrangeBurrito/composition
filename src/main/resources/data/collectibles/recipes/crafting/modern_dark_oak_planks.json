@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#B ",
+    "B# ",
+    "   "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_log"
+    }, "B": {
+      "item": "minecraft:stripped_dark_oak_log"
+    }
+  },
+  "result": {
+    "item": "collectibles:modern_dark_oak_planks",
+    "count": 16
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "collectibles:zucchini_slices"
+  },
+  "result": "collectibles:zucchini_fries",
+  "experience": 0.2,
+  "cookingtime": 110
+}

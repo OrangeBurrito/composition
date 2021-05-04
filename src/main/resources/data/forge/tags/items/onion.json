@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:onion/onion",
+    "#forge:onion/onion_sf"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "collectibles:block/koru_terrarium" },
+    "facing=south": { "model": "collectibles:block/koru_terrarium", "y": 180 },
+    "facing=west":  { "model": "collectibles:block/koru_terrarium", "y": 270 },
+    "facing=east":  { "model": "collectibles:block/koru_terrarium", "y": 90 }
+  }
+}
