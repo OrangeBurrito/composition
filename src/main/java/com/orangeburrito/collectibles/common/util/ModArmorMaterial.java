@@ -68,7 +68,7 @@ public enum ModArmorMaterial implements IArmorMaterial {
         return this.repairMaterialLazy.get();
     }
 
-    @OnlyIn(Dist.CLIENT)
+    @Override
     public String getName() {
         return this.name;
     }
@@ -80,10 +80,6 @@ public enum ModArmorMaterial implements IArmorMaterial {
 
     @Override
     public float getKnockbackResistance() {
-        return 0;
-    }
-
-    public float func_230304_f_() {
         return this.knockbackResistance;
     }
 }
