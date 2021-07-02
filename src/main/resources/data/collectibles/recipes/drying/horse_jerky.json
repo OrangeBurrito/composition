@@ -6,11 +6,5 @@
   },
   "result": {
     "item": "collectibles:horse_jerky"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "silents_mechanisms"
-    }
-  ]
+  }
 }

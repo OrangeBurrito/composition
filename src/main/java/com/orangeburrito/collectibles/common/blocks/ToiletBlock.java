@@ -4,7 +4,6 @@ import com.google.common.collect.ImmutableList;
 import com.google.common.collect.ImmutableMap;
 import com.orangeburrito.collectibles.core.ModSounds;
 import com.orangeburrito.collectibles.common.entity.SeatEntity;
-import com.orangeburrito.collectibles.core.proxy.ClientProxy;
 import com.orangeburrito.collectibles.common.util.VoxelHelper;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
@@ -32,7 +31,6 @@ public class ToiletBlock extends WaterloggedHorizontalBlock {
     private ImmutableMap<BlockState, VoxelShape> generateShapes(ImmutableList<BlockState> states) {
         final VoxelShape[] BACKREST = VoxelHelper.getRotatedShapes(VoxelHelper.rotate(Block.makeCuboidShape(1.5999999999999996, 4.8, 9.6, 14.4, 18.35, 16), Direction.NORTH));
         final VoxelShape[] BASE = VoxelHelper.getRotatedShapes(VoxelHelper.rotate(Block.makeCuboidShape(2.4, 4.8, 1.6, 13.6, 9.6, 10.4), Direction.NORTH));
-        final VoxelShape[] LEGS = VoxelHelper.getRotatedShapes(VoxelHelper.rotate(Block.makeCuboidShape(4, 0, 3.2, 12, 4.8, 14.4), Direction.NORTH));
 
         ImmutableMap.Builder<BlockState, VoxelShape> builder = new ImmutableMap.Builder<>();
         for (BlockState state : states) {
@@ -63,10 +61,6 @@ public class ToiletBlock extends WaterloggedHorizontalBlock {
             System.out.println("flush!");
             return ActionResultType.SUCCESS;
         } else {
-            if (ClientProxy.fartKey.isKeyDown()) {
-                world.playSound(null, pos, ModSounds.FART, SoundCategory.PLAYERS, 0.4F, 1F);
-                System.out.println("fart sound");
-            }
             return SeatEntity.create(world, pos, 0.4, playerEntity);
         }
     }

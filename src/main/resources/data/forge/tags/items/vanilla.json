@@ -1,0 +1,7 @@
+{
+	"replace": false,
+	"values": [
+		"#forge:vanilla/vanilla",
+		"#forge:vanilla/vanilla_np"
+]
+}

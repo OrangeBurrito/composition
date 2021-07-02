@@ -1,3 +1,6 @@
 {
-  "parent": "collectibles:block/garlic_coin"
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "collectibles:items/garlic_coin"
+  }
 }

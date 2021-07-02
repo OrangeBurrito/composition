@@ -25,12 +25,5 @@
 
   "result": {
     "item": "collectibles:baklava"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore",
-      "modid": "pamhc2trees"
-    }
-  ]
+  }
 }

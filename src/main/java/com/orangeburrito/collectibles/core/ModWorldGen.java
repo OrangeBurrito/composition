@@ -33,7 +33,7 @@ public class ModWorldGen {
     }
 
     public static void setup(final FMLCommonSetupEvent event) {
-        KORU_FEATURE_CONFIG = (new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.KORU.get().getDefaultState()), new SimpleBlockPlacer())).tries(18).build();
+        KORU_FEATURE_CONFIG = (new BlockClusterFeatureConfig.Builder(new SimpleBlockStateProvider(ModBlocks.KORU.get().getDefaultState()), new SimpleBlockPlacer())).tries(25).build();
         KORU_FEATURE = Feature.FLOWER.withConfiguration(KORU_FEATURE_CONFIG).withPlacement(Features.Placements.VEGETATION_PLACEMENT).withPlacement(Features.Placements.HEIGHTMAP_PLACEMENT);
         event.enqueueWork(() -> {
             Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation(Collectibles.MOD_ID, "koru"), KORU_FEATURE);
@@ -46,28 +46,11 @@ public class ModWorldGen {
             event.getGeneration().withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, KORU_FEATURE);
         }
     }
+
+    public static void registerConfiguredFeatures() {
+        Registry<ConfiguredFeature<?, ?>> registry = WorldGenRegistries.CONFIGURED_FEATURE;
+
+        Registry.register(registry, new ResourceLocation(Collectibles.MOD_ID, "koru"), KORU_FEATURE);
+
+    }
 }
-//    @SubscribeEvent(priority = EventPriority.HIGH)
-//    public static void modifyBiomes(BiomeLoadingEvent event) {
-//        if (event.getName() != null) {
-//            RegistryKey<Biome> biomeRegistryKey = RegistryKey.getOrCreateKey(Registry.BIOME_KEY, event.getName());
-////            FeatureHelper helper = new FeatureHelper(event);
-//
-//            if (BiomeDictionary.hasType(biomeRegistryKey, BiomeDictionary.Type.OVERWORLD)) {
-//                if (event.getCategory() == Biome.Category.SWAMP) {
-////                    biome(ModBiomeFeatures.KORU_PATCH);
-//                    event.getGeneration().withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModBiomeFeatures.KORU_PATCH);
-//                }
-//            }
-//        }
-//    }
-//    private ModGeneration() {}
-//
-//    public static void registerPlacements(RegistryEvent.Register<Placement<?>> event) {}
-//
-//    public static void addFeaturesToBiomes(BiomeLoadingEvent biome) {
-//
-//        if (biome.getCategory() == Biome.Category.SWAMP) {
-//            biome.getGeneration().withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, ModBiomeFeatures.KORU_PATCH);
-//        }
-//    }

@@ -22,12 +22,5 @@
 
   "result": {
     "item": "collectibles:asparagus_quiche"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore",
-      "modid": "pamhc2crops"
-    }
-  ]
+  }
 }

@@ -28,6 +28,8 @@ displayName = "Collectibles" #mandatory
 #displayURL="http://example.com/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 #logoFile="collectibles.png" #optional
+# Item Icon
+itemIcon="collectibles:eggs_benedict"
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI

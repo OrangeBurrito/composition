@@ -6,11 +6,5 @@
   },
   "result": {
     "item": "minecraft:dried_kelp"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "silents_mechanisms"
-    }
-  ]
+  }
 }

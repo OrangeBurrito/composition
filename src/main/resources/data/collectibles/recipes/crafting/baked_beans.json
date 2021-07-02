@@ -10,7 +10,7 @@
       "item": "pamhc2crops:beanitem"
     },
     {
-      "tag": "forge:tomatoes"
+      "tag": "forge:crops/tomato"
     },
     {
       "tag": "forge:sugar"
@@ -19,11 +19,5 @@
 
   "result": {
     "item": "collectibles:baked_beans"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore"
-    }
-  ]
+  }
 }

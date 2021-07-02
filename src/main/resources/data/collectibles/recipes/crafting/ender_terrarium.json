@@ -7,10 +7,10 @@
       "tag": "forge:jars"
     },
     {
-      "item": "endergetic:poise_grass"
+      "item": "endergetic:poise_bush"
     },
     {
-      "item": "endergetic:poise_grass_block"
+      "item": "endergetic:poismoss"
     }
   ],
   "result": {"item": "collectibles:ender_terrarium"},

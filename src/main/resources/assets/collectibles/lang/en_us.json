@@ -26,7 +26,6 @@
   "item.collectibles.poutine": "Poutine",
   "item.collectibles.cheese_fries": "Cheese Fries",
   "item.collectibles.cheese_danish": "Cheese Danish",
-  "item.collectibles.cheese_puffs": "Cheese Puffs",
   "item.collectibles.potato_skins": "Potato Skins",
   "item.collectibles.tater_tots": "Tater Tots",
   "item.collectibles.hash": "Hash",
@@ -99,14 +98,9 @@
   "item.collectibles.lychee_tea": "Lychee Tea",
   "item.collectibles.eggnog": "Eggnog",
   "item.collectibles.pumpkin_spice_latte": "Pumpkin Spice Latte",
-  "item.collectibles.milkshake": "Milkshake",
-  "item.collectibles.vanilla_ice_cream": "Vanilla Ice Cream",
-  "item.collectibles.strawberry_ice_cream": "Strawberry Ice Cream",
-  "item.collectibles.neapolitan_ice_cream": "Neapolitan Ice Cream",
   "item.collectibles.spumoni_ice_cream": "Spumoni Ice Cream",
   "item.collectibles.mint_chocolate_chip_ice_cream": "Mint Chocolate Chip Ice Cream",
   "item.collectibles.pistachio_ice_cream": "Pistachio Ice Cream",
-  "item.collectibles.cherry_ice_cream": "Cherry Ice Cream",
   "item.collectibles.cherry_coconut_chocolate_bar": "Cherry Coconut Chocolate Bar",
   "item.collectibles.banana_split": "Banana Split",
   "item.collectibles.hazelnut_chocolate_sandwich": "Hazelnut Chocolate Sandwich",
@@ -257,8 +251,5 @@
   "block.collectibles.holiday_cake": "Holiday Cake",
   "block.collectibles.red_velvet_cake": "Red Velvet Cake",
 
-  "itemGroup.collectiblestab": "Collectibles",
-
-  "collectibles.key.fart": "Fart",
-  "key.categories.collectibles": "Collectibles"
+  "itemGroup.collectiblestab": "Collectibles"
 }

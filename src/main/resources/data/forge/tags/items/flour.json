@@ -1,9 +1,8 @@
 {
   "replace": false,
   "values": [
-    "#forge:flour/flour_thermal",
-    "#forge:flour/flour_hc",
+    "#forge:flour/flour_atum",
     "#forge:flour/flour_create",
-    "#forge:flour/flour_atum"
+    "#forge:flour/flour_hc"
   ]
 }

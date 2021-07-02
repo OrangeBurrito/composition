@@ -19,14 +19,6 @@ import java.awt.*;
 
 public class ClientProxy extends CommonProxy {
 
-    public static final KeyBinding fartKey = new KeyBinding(Collectibles.MOD_ID + ".key.fart", GLFW.GLFW_KEY_F, "key.categories." + Collectibles.MOD_ID);
-//    public static final Map<RegistryObject<Item>, BipedModel> armorModels;
-
-    static {
-        ClientRegistry.registerKeyBinding(fartKey);
-//        armorModels = new HashMap<RegistryObject<Item>, BipedModel>();
-    }
-
     @Override
     public void onSetupClient() {
         super.onSetupClient();

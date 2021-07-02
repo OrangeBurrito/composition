@@ -16,11 +16,5 @@
 
   "result": {
     "item": "collectibles:avocado_toast"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore"
-    }
-  ]
+  }
 }

@@ -1,8 +1,9 @@
 {
   "replace": false,
   "values": [
-    "#forge:rawbirdmeats/birdmeat",
-    "#forge:rawbirdmeats/pheasant",
-    "#forge:rawbirdmeats/turkey"
+    "#forge:rawbirdmeats/duck",
+    "#forge:rawbirdmeats/quail",
+    "#forge:rawbirdmeats/turkey",
+	"#forge:rawbirdmeats/birdmeat"
   ]
 }

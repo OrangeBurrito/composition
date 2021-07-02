@@ -1,7 +1,0 @@
-{
-		"replace": false,
-		"values": [
-			"#forge:tool_grinder/grinder",
-			"#forge:tool_grinder/pestle"
-	]
-}

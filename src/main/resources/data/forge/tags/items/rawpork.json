@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:rawpork/bacon",
+    "#forge:rawpork/bacon2",
+    "#forge:rawpork/tofacon"
+  ]
+}

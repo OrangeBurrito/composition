@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "#forge:jars/jar",
-    "#forge:jars/firefly_jar"
+    "#forge:jars/firefly_jar",
+    "#forge:jars/cicada_jar",
+    "#forge:jars/utrem_jar"
   ]
 }
