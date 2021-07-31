@@ -118,19 +118,12 @@ public class ModItems {
     public static final RegistryObject<Item> PUMPKIN_SPICE_LATTE = ITEMS.register("pumpkin_spice_latte", () -> new PumpkinSpiceLatteItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(0.8F).build())));
 
     // DESSERT
-//    public static final RegistryObject<Item> MILKSHAKE = ITEMS.register("milkshake", () -> new MilkshakeItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(0.7F).build())));
-//    public static final RegistryObject<Item> BANANA_SPLIT = ITEMS.register("banana_split", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(10).saturation(1.0F).build())));
-//    public static final RegistryObject<Item> VANILLA_ICE_CREAM = ITEMS.register("vanilla_ice_cream", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(1.0F).build())));
-//    public static final RegistryObject<Item> STRAWBERRY_ICE_CREAM = ITEMS.register("strawberry_ice_cream", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(1.0F).build())));
-//    public static final RegistryObject<Item> NEAPOLITAN_ICE_CREAM = ITEMS.register("neapolitan_ice_cream", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(1.0F).build())));
     public static final RegistryObject<Item> SPUMONI_ICE_CREAM = ITEMS.register("spumoni_ice_cream", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(1.0F).build())));
     public static final RegistryObject<Item> MINT_CHOCOLATE_CHIP_ICE_CREAM = ITEMS.register("mint_chocolate_chip_ice_cream", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(1.0F).build())));
     public static final RegistryObject<Item> PISTACHIO_ICE_CREAM = ITEMS.register("pistachio_ice_cream", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(1.0F).build())));
-//    public static final RegistryObject<Item> CHERRY_ICE_CREAM = ITEMS.register("cherry_ice_cream", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(1.0F).build())));
     public static final RegistryObject<Item> CHERRY_COCONUT_CHOCOLATE_BAR = ITEMS.register("cherry_coconut_chocolate_bar", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(4).saturation(1.2F).build())));
     public static final RegistryObject<Item> HAZELNUT_CHOCOLATE_SANDWICH = ITEMS.register("hazelnut_chocolate_sandwich", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(0.7F).build())));
     public static final RegistryObject<Item> HAZELNUT_CHOCOLATE_BANANA_SANDWICH = ITEMS.register("hazelnut_chocolate_banana_sandwich", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(9).saturation(0.8F).build())));
-//    public static final RegistryObject<Item> TWINKIE = ITEMS.register("twinkie", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(5).saturation(0.7F).build())));
     public static final RegistryObject<Item> BLACKBERRY_COBBLER = ITEMS.register("blackberry_cobbler", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(0.9F).build())));
     public static final RegistryObject<Item> PEACH_COBBLER = ITEMS.register("peach_cobbler", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(0.9F).build())));
     public static final RegistryObject<Item> COBBLESTONE_COBBLER = ITEMS.register("cobblestone_cobbler", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(0.9F).build())));
@@ -146,7 +139,4 @@ public class ModItems {
     public static final RegistryObject<Item> FLOWER_CROWN = ITEMS.register("flower_crown", () -> new ArmorItem(ModArmorMaterial.FLOWER_CROWN, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
 
     public static final RegistryObject<Item> WITCH_HAT = ITEMS.register("witch_hat", () -> new WitchHatItem(ArmorMaterial.LEATHER, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
-
-    public static final RegistryObject<Item> PLATE_HELMET = ITEMS.register("plate_helmet", () -> new PlateArmorItem(ModArmorMaterial.PLATE, EquipmentSlotType.HEAD, new Item.Properties().group(ItemGroup.COMBAT)));
-    public static final RegistryObject<Item> PLATE_CHESTPLATE = ITEMS.register("plate_chestplate", () -> new PlateArmorItem(ModArmorMaterial.PLATE, EquipmentSlotType.CHEST, new Item.Properties().group(ItemGroup.COMBAT)));
 }

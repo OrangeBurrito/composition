@@ -16,11 +16,8 @@ import net.minecraftforge.common.Tags;
 import net.minecraftforge.common.util.Lazy;
 
 public enum ModArmorMaterial implements IArmorMaterial {
-    //  Adding mod id prefix before the id if there are  errors, and remove it later when you have the model textures
-    //  Collectibles.MOD_ID + "flower_crown"
-    FLOWER_CROWN("flower_crown", 0, new int[] {2, 6, 7, 1}, 12, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0, 0.0F, () -> Ingredient.fromTag(ItemTags.SMALL_FLOWERS)),
-    WITCH_HAT("witch_hat", 10, new int[] {2, 6, 7, 1}, 25, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0, 0.0F, () -> Ingredient.fromTag(ItemTags.SMALL_FLOWERS)),
-    PLATE("plate", 40, new int[] {3, 6, 7, 1}, 15, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0, 0.0F, () -> Ingredient.fromItems(Items.IRON_INGOT));
+    FLOWER_CROWN("flower_crown", 0, new int[] {2, 6, 1, 0}, 10, SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, 0, 0.0F, () -> Ingredient.fromTag(ItemTags.SMALL_FLOWERS)),
+    WITCH_HAT("witch_hat", 10, new int[] {2, 6, 7, 0}, 25, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, 0, 0.0F, () -> Ingredient.EMPTY);
 
     private static final int[] MAX_DAMAGE_ARRAY = new int[]{13, 15, 16, 11};
     private final String name;

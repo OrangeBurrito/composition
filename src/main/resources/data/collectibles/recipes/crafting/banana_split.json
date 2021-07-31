@@ -13,16 +13,14 @@
       "item": "pamhc2foodcore:cocoapowderitem"
     },
     {
-      "tag": "forge:cherries"
+      "tag": "forge:fruits/cherry"
     },
     {
       "tag": "forge:strawberries"
     },
     {
-      "tag": "forge:bananas"
+      "tag": "forge:fruits/banana"
     }
-
-
   ],
 
   "result": {

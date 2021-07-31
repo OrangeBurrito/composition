@@ -45,6 +45,8 @@ public class ModWorldGen {
         if (event.getCategory() == Biome.Category.SWAMP) {
             event.getGeneration().withFeature(GenerationStage.Decoration.VEGETAL_DECORATION, KORU_FEATURE);
         }
+        if (event.getCategory() == Biome.Category.PLAINS) {
+        }
     }
 
     public static void registerConfiguredFeatures() {

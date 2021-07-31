@@ -4,7 +4,7 @@
   "ingredients":
   [
     {
-      "tag": "forge:bananas"
+      "tag": "forge:fruits/banana"
     },
     {
       "item": "minecraft:glass_bottle"
@@ -16,11 +16,5 @@
 
   "result": {
     "item": "collectibles:banana_daiquiri"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pamhc2trees"
-    }
-  ]
+  }
 }

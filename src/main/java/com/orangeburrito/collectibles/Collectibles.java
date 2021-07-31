@@ -1,17 +1,18 @@
 package com.orangeburrito.collectibles;
 
-import com.orangeburrito.collectibles.core.ModWorldGen;
-import com.orangeburrito.collectibles.core.ModBlocks;
-import com.orangeburrito.collectibles.core.ModItems;
+import com.orangeburrito.collectibles.core.*;
 import com.orangeburrito.collectibles.core.proxy.ClientProxy;
 import com.orangeburrito.collectibles.core.proxy.CommonProxy;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.RenderTypeLookup;
+import net.minecraft.data.DataGenerator;
 import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.DistExecutor;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.fml.event.lifecycle.GatherDataEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -30,6 +31,7 @@ public class Collectibles {
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
         ModWorldGen.subscribe(modEventBus);
+        ModLootModifiers.REGISTER.register(modEventBus);
     }
     private void onCommonSetup(FMLCommonSetupEvent event) {
         PROXY.onSetupCommon();
@@ -66,5 +68,13 @@ public class Collectibles {
         RenderTypeLookup.setRenderLayer(ModBlocks.ORIGIN_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.NETHER_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.ENDER_TERRARIUM.get(), RenderType.getCutout());
+    }
+
+    @SubscribeEvent
+    public static void gatherData(GatherDataEvent event){
+        DataGenerator generator = event.getGenerator();
+        if(event.includeServer()){
+            generator.addProvider(new LootModifierGen(event.getGenerator()));
+        }
     }
 }
