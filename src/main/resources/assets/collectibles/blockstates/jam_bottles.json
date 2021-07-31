@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "collectibles:block/jam_bottles", "y": 180 },
-    "facing=south": { "model": "collectibles:block/jam_bottles" },
-    "facing=west":  { "model": "collectibles:block/jam_bottles", "y": 90 },
-    "facing=east":  { "model": "collectibles:block/jam_bottles", "y": 270 }
-  }
-}

@@ -15,7 +15,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 
 group = 'com.orangeburrito'
-version = '0.4'
+version = '0.5'
 archivesBaseName = 'collectibles'
 
 sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8'

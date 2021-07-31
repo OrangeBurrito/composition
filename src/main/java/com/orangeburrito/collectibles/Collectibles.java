@@ -42,9 +42,7 @@ public class Collectibles {
         ClientProxy.registerBlockColors();
         ClientProxy.registerItemColors();
 
-        RenderTypeLookup.setRenderLayer(ModBlocks.ALLIUM_BOTTLE.get(), RenderType.getTranslucent());
         RenderTypeLookup.setRenderLayer(ModBlocks.GLASS_DOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.EIFFEL_FIGURINE.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.WHITE_OFFICE_CHAIR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.GREEN_OFFICE_CHAIR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_OFFICE_CHAIR.get(), RenderType.getCutout());

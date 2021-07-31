@@ -100,7 +100,7 @@ public class ModItems {
     public static final RegistryObject<Item> STUFFING = ITEMS.register("stuffing", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(8).saturation(0.7F).build())));
     public static final RegistryObject<Item> FAIRY_BREAD = ITEMS.register("fairy_bread", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(0.7F).build())));
     public static final RegistryObject<Item> DATE_NUT_BREAD = ITEMS.register("date_nut_bread", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(0.7F).build())));
-    public static final RegistryObject<Item> BACON_WRAPPED_DATES = ITEMS.register("bacon_wrapped_dates", () -> new HarvestcraftItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(0.8F).build())));
+    public static final RegistryObject<Item> BACON_WRAPPED_DATES = ITEMS.register("bacon_wrapped_dates", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(0.8F).build())));
     public static final RegistryObject<Item> APPLE_SLICES = ITEMS.register("apple_slices", () -> new Item(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(1).saturation(1).fastToEat().build())));
     // DRINKS
     public static final RegistryObject<Item> SHOTGA_COLA = ITEMS.register("shotga_cola", () -> new ShotgaColaItem(new Item.Properties().group(ItemGroup.FOOD).food(new Food.Builder().hunger(6).saturation(0.8F).effect(() -> new EffectInstance(Effects.SPEED, 1200, 1), 1).build())));

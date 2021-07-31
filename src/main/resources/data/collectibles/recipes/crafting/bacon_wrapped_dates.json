@@ -3,13 +3,10 @@
   "ingredients":
   [
     {
-      "tag": "forge:tool_bakeware"
-    },
-    {
       "tag": "forge:dates"
     },
     {
-      "tag": "forge:rawpork"
+      "tag": "forge:bacon"
     }
   ],
 

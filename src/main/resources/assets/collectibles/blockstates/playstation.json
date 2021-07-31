@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "collectibles:block/playstation" },
-    "facing=south": { "model": "collectibles:block/playstation", "y": 180 },
-    "facing=west":  { "model": "collectibles:block/playstation", "y": 270 },
-    "facing=east":  { "model": "collectibles:block/playstation", "y": 90 }
-  }
-}

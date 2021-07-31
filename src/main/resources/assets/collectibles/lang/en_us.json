@@ -211,22 +211,12 @@
 
   "block.collectibles.toilet": "Toilet",
 
-  "block.collectibles.table": "Table",
   "block.collectibles.old_stonecutter": "Old Stonecutter",
-  "block.collectibles.fancy_cauldron": "Fancy Cauldron",
   "block.collectibles.gamecube": "Gamecube",
   "block.collectibles.crt": "CRT Monitor",
-  "block.collectibles.modern_tv": "Modern TV",
   "block.collectibles.laptop": "Laptop",
   "block.collectibles.computer": "Computer",
-  "block.collectibles.playstation": "Playstation",
-  "block.collectibles.white_retro_speaker": "White Retro Speaker",
-  "block.collectibles.black_retro_speaker": "Black Retro Speaker",
-  "block.collectibles.jam_bottles": "Jam Bottles",
-  "block.collectibles.allium_bottle": "Allium Bottle",
-  "block.collectibles.eiffel_figurine": "Eiffel Tower Figurine",
   "block.collectibles.mortar_and_pestle": "Mortar and Pestle",
-  "block.collectibles.toilet_paper": "Toilet Paper",
 
   "block.collectibles.koru": "Koru",
 

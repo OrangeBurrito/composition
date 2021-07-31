@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "collectibles:block/modern_tv", "y": 180 },
-    "facing=south": { "model": "collectibles:block/modern_tv" },
-    "facing=west":  { "model": "collectibles:block/modern_tv", "y": 90 },
-    "facing=east":  { "model": "collectibles:block/modern_tv", "y": 270 }
-  }
-}

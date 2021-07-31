@@ -38,15 +38,8 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> GAMECUBE = BLOCKS.register("gamecube", () -> new GamecubeBlock(Block.Properties.create(Material.IRON).hardnessAndResistance(4.5F, 4.5F).harvestLevel(1).harvestTool(ToolType.PICKAXE).sound(SoundType.METAL)));
     public static final RegistryObject<Block> CRT = BLOCKS.register("crt", () -> new CRTBlock(Block.Properties.from(GAMECUBE.get())));
-    public static final RegistryObject<Block> MODERN_TV = BLOCKS.register("modern_tv", () -> new ModernTVBlock(Block.Properties.from(GAMECUBE.get())));
     public static final RegistryObject<Block> LAPTOP = BLOCKS.register("laptop", () -> new LaptopBlock(Block.Properties.from(GAMECUBE.get())));
     public static final RegistryObject<Block> COMPUTER = BLOCKS.register("computer", () -> new ComputerBlock(Block.Properties.from(GAMECUBE.get())));
-    public static final RegistryObject<Block> PLAYSTATION = BLOCKS.register("playstation", () -> new PlaystationBlock(Block.Properties.from(GAMECUBE.get())));
-    public static final RegistryObject<Block> BLACK_RETRO_SPEAKER = BLOCKS.register("black_retro_speaker", () -> new MortarPestleBlock(Block.Properties.from(GAMECUBE.get())));
-    public static final RegistryObject<Block> WHITE_RETRO_SPEAKER = BLOCKS.register("white_retro_speaker", () -> new MortarPestleBlock(Block.Properties.from(GAMECUBE.get())));
-    public static final RegistryObject<Block> JAM_BOTTLES = BLOCKS.register("jam_bottles", () -> new MortarPestleBlock(Block.Properties.create(Material.GLASS).hardnessAndResistance(0.5F).harvestLevel(0).harvestTool(ToolType.PICKAXE).sound(SoundType.GLASS)));
-    public static final RegistryObject<Block> ALLIUM_BOTTLE = BLOCKS.register("allium_bottle", () -> new MortarPestleBlock(Block.Properties.from(JAM_BOTTLES.get())));
-    public static final RegistryObject<Block> EIFFEL_FIGURINE = BLOCKS.register("eiffel_figurine", () -> new EiffelFigurineBlock(Block.Properties.from(Blocks.IRON_BARS)));
     public static final RegistryObject<Block> MORTAR_AND_PESTLE = BLOCKS.register("mortar_and_pestle", () -> new MortarPestleBlock(Block.Properties.from(Blocks.COBBLESTONE)));
 //    public static final RegistryObject<Block> TOILET_PAPER = BLOCKS.register("toilet_paper", () -> new MortarPestleBlock(Block.Properties.from(Blocks.WHITE_WOOL)));
 
