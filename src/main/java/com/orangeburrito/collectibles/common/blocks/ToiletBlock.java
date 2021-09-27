@@ -57,8 +57,9 @@ public class ToiletBlock extends WaterloggedHorizontalBlock {
     @Override
     public ActionResultType onBlockActivated(BlockState state, World world, BlockPos pos, PlayerEntity playerEntity, Hand hand, BlockRayTraceResult result) {
         if (playerEntity.isCrouching()) {
-            world.playSound(null, pos, ModSounds.FLUSH, SoundCategory.PLAYERS, 0.8F, 1F);
-            System.out.println("flush!");
+            if (!world.isRemote) {
+                world.playSound(null, pos, ModSounds.FLUSH.get(), SoundCategory.BLOCKS, 0.8F, 1F);
+            }
             return ActionResultType.SUCCESS;
         } else {
             return SeatEntity.create(world, pos, 0.4, playerEntity);

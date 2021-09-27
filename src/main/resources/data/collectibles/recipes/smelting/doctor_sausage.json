@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "collectibles:doctor_sausage"
-  },
-  "result": "collectibles:cooked_doctor_sausage",
-  "experience": 0.3,
-  "cookingtime": 100
-}

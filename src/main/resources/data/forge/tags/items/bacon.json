@@ -1,8 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#forge:bacon/bacon",
-    "#forge:bacon/bacon2",
-    "#forge:bacon/tofacon"
+    "#forge:bacon/bacon"
   ]
 }

@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "variant=fern": { "model": "collectibles:terrarium_fern" },
+        "variant=mushroom": { "model": "collectibles:terrarium_mushroom" },
+		"variant=cactus": { "model": "collectibles:terrarium_cactus" },
+		"variant=flax": { "model": "collectibles:terrarium_flax" },
+		"variant=flower": { "model": "collectibles:terrarium_flower" },
+		"variant=koru": { "model": "collectibles:terrarium_koru" },
+		"variant=bamboo": { "model": "collectibles:terrarium_bamboo" },
+		"variant=beach": { "model": "collectibles:terrarium_beach" },
+		"variant=glowshroom": { "model": "collectibles:terrarium_glowshroom" },
+		"variant=dead": { "model": "collectibles:terrarium_dead" },
+		"variant=mystic": { "model": "collectibles:terrarium_mystic" },
+		"variant=wasteland": { "model": "collectibles:terrarium_wasteland" },
+		"variant=origin": { "model": "collectibles:terrarium_origin" },
+		"variant=nether": { "model": "collectibles:terrarium_nether" },
+		"variant=ender": { "model": "collectibles:terrarium_ender" }
+    }
+}

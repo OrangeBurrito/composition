@@ -1,7 +1,0 @@
-{
-  "parent": "collectibles:block/white_beach_chair",
-  "textures": {
-	"0": "collectibles:blocks/yellow_beach_chair",
-	"particle": "collectibles:blocks/yellow_beach_chair"
-  }
-}

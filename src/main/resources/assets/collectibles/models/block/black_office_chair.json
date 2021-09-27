@@ -1,7 +1,0 @@
-{
-  "parent": "collectibles:block/blue_office_chair",
-  "textures": {
-    "0": "collectibles:blocks/black_office_chair",
-    "particle": "collectibles:blocks/black_office_chair"
-  }
-}

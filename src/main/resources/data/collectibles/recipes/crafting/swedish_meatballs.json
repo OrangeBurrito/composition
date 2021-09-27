@@ -4,16 +4,16 @@
   "ingredients":
   [
     {
-      "item": "pamhc2foodcore:groundbeefitem"
+      "item": "minecraft:bowl"
     },
     {
       "tag": "forge:flour"
     },
     {
-      "item": "pamhc2crops:spiceleafitem"
+      "item": "xercamod:tealeafitem"
     },
     {
-      "item": "pamhc2trees:nutmegitem"
+      "item": "farmersdelight:meatballs"
     },
     {
       "tag": "forge:cream"
@@ -28,9 +28,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore",
-      "modid": "pamhc2crops",
-      "modid": "pamhc2trees"
+      "modid": "farmersdelight"
     }
   ]
 }

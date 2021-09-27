@@ -1,9 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:strawberries/strawberries",
-    "#forge:strawberries/strawberries_sf",
-		"#forge:strawberries/strawberries_np",
-		"#forge:strawberries/strawberries_tf"
-  ]
-}

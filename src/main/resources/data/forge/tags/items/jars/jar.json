@@ -1,6 +1,1 @@
-{
-  "replace": false,
-  "values": [
-    "supplementaries:jar"
-  ]
-}
+{"replace":false,"values":["supplementaries:jar"]}

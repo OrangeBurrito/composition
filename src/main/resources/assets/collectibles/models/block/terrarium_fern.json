@@ -1,0 +1,8 @@
+{
+	"parent": "collectibles:block/terrarium",
+	"ambientocclusion": false,
+    "textures": {
+        "inside": "collectibles:blocks/terrarium_fern",
+		"particle": "collectibles:items/terrarium_fern"
+    }
+}

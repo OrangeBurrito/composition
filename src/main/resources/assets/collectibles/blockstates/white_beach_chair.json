@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "collectibles:block/white_beach_chair", "y": 180 },
-    "facing=south": { "model": "collectibles:block/white_beach_chair" },
-    "facing=west":  { "model": "collectibles:block/white_beach_chair", "y": 90 },
-    "facing=east":  { "model": "collectibles:block/white_beach_chair", "y": 270 }
-  }
-}

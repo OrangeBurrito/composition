@@ -1,6 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": {
-    "layer0": "collectibles:items/cream_of_avocado_soup"
-  }
-}

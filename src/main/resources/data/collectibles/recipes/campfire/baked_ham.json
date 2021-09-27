@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:campfire_cooking",
-  "ingredient": {
-    "item": "collectibles:raw_ham"
-  },
-  "result": "collectibles:baked_ham",
-  "experience": 0.40,
-  "cookingtime": 170
-}

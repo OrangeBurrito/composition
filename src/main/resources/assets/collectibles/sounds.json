@@ -4,15 +4,6 @@
     "category": "player",
     "sounds": [
       {
-        "name": "collectibles:fart1"
-      },
-      {
-        "name": "collectibles:fart2"
-      },
-      {
-        "name": "collectibles:fart3"
-      },
-      {
         "name": "collectibles:flush"
       }
     ]

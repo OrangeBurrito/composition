@@ -30,6 +30,7 @@ public class Collectibles {
         final IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModSounds.SOUNDS.register(modEventBus);
         ModWorldGen.subscribe(modEventBus);
         ModLootModifiers.REGISTER.register(modEventBus);
     }
@@ -43,29 +44,24 @@ public class Collectibles {
         ClientProxy.registerItemColors();
 
         RenderTypeLookup.setRenderLayer(ModBlocks.GLASS_DOOR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.WHITE_OFFICE_CHAIR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.GREEN_OFFICE_CHAIR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.BLUE_OFFICE_CHAIR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.RED_OFFICE_CHAIR.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.BLACK_OFFICE_CHAIR.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.KORU.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FERN_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.MUSHROOM_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.CACTUS_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FLAX_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FLOWER_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FLOWER_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.KORU_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.BAMBOO_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.BEACH_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.SAPLING_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.GLOWSHROOM_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.DEAD_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.MYSTIC_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.WASTELAND_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.ORIGIN_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.NETHER_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.ENDER_TERRARIUM.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.MUSHROOM_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.CACTUS_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.FLAX_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.FLOWER_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.FLOWER_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.KORU_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.BAMBOO_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.BEACH_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.SAPLING_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.GLOWSHROOM_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.DEAD_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.MYSTIC_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.WASTELAND_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.ORIGIN_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.NETHER_TERRARIUM.get(), RenderType.getCutout());
+//        RenderTypeLookup.setRenderLayer(ModBlocks.ENDER_TERRARIUM.get(), RenderType.getCutout());
     }
 
     @SubscribeEvent

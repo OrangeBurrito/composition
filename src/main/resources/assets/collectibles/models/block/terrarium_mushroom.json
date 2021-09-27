@@ -1,0 +1,8 @@
+{
+	"parent": "collectibles:block/terrarium",
+	"ambientocclusion": false,
+    "textures": {
+        "inside": "collectibles:blocks/terrarium_mushroom",
+		"particle": "collectibles:items/terrarium_mushroom"
+    }
+}

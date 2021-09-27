@@ -4,16 +4,13 @@
   "ingredients":
   [
     {
-      "tag": "forge:tool_cuttingboard"
-    },
-    {
-      "item": "collectibles:biscuit"
+      "tag": "forge:bread"
     },
     {
       "tag": "forge:cream"
     },
     {
-      "tag": "forge:limes"
+      "item": "fruittrees:lime"
     },
     {
       "tag": "forge:eggs"
@@ -29,7 +26,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore"
+      "modid": "fruittrees"
     }
   ]
 }

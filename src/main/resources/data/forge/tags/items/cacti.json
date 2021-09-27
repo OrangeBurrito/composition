@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:cacti/cactus",
-    "#forge:cacti/cactus_sf",
-    "#forge:cacti/cactus_hc"
-  ]
-}

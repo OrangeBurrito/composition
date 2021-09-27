@@ -1,9 +1,0 @@
-{
-  "parent": "block/orientable",
-  "textures": {
-    "top": "collectibles:blocks/old_stonecutter_top",
-    "bottom": "collectibles:blocks/old_stonecutter_bottom",
-    "front": "collectibles:blocks/old_stonecutter_front",
-    "side": "collectibles:blocks/old_stonecutter_side"
-  }
-}

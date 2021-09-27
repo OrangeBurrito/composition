@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smelting",
-  "ingredient": {
-    "item": "pamhc2crops:kaleitem"
-  },
-  "result": "collectibles:kale_chips",
-  "experience": 0.1,
-  "cookingtime": 90
-}

@@ -1,7 +1,0 @@
-{
-  "variants": {
-    "type=bottom": { "model": "collectibles:block/modern_birch_slab" },
-    "type=top": { "model": "collectibles:block/modern_birch_slab_top" },
-    "type=double": { "model": "collectibles:block/modern_birch_planks" }
-  }
-}

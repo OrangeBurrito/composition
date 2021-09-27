@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:rice/rice_fd",
-    "#forge:rice/rice_tf",
-    "#forge:rice/rice_xm"
-  ]
-}
