@@ -1,0 +1,10 @@
+{
+  "type": "silents_mechanisms:drying",
+  "process_time": 400,
+  "ingredient": {
+    "item": "simplefarming:raw_horse_meat"
+  },
+  "result": {
+    "item": "composition:horse_jerky"
+  }
+}

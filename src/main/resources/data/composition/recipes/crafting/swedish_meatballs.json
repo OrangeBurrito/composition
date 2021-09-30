@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "xercamod:tealeafitem"
+    },
+    {
+      "item": "farmersdelight:meatballs"
+    },
+    {
+      "tag": "forge:cream"
+    },
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "result": {
+    "item": "composition:swedish_meatballs"
+  },
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "farmersdelight"
+    }
+  ]
+}

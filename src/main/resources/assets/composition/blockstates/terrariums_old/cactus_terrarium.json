@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "composition:block/cactus_terrarium" },
+    "facing=south": { "model": "composition:block/cactus_terrarium", "y": 180 },
+    "facing=west":  { "model": "composition:block/cactus_terrarium", "y": 270 },
+    "facing=east":  { "model": "composition:block/cactus_terrarium", "y": 90 }
+  }
+}

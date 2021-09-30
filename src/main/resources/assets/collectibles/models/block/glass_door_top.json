@@ -1,7 +1,0 @@
-{
-  "parent": "block/door_top",
-  "textures": {
-    "bottom": "collectibles:blocks/glass_door_bottom",
-    "top": "collectibles:blocks/glass_door_top"
-  }
-}

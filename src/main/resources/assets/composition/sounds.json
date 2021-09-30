@@ -1,0 +1,11 @@
+{
+  "fart": {
+    "replace": false,
+    "category": "player",
+    "sounds": [
+      {
+        "name": "composition:flush"
+      }
+    ]
+  }
+}

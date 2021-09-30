@@ -1,0 +1,18 @@
+{
+  "type": "composition:drops_witch_hat",
+  "conditions": [
+    {
+      "condition": "minecraft:random_chance_with_looting",
+      "chance": 0.1,
+      "looting_multiplier": 0.05
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "predicate": {
+        "type": "minecraft:witch"
+      },
+      "entity": "this"
+    }
+  ],
+  "item": "composition:witch_hat"
+}

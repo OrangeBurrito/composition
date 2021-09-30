@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:jars"
+    },
+    {
+      "item": "biomesoplenty:pink_daffodil"
+    },
+    {
+      "item": "minecraft:grass_block"
+    }
+  ],
+  "result": {"item": "composition:flower_terrarium"},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ]
+}

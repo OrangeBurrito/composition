@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:jars"
+    },
+    {
+      "item": "biomesoplenty:wilted_lily"
+    },
+    {
+      "item": "biomesoplenty:dried_salt"
+    }
+  ],
+  "result": {"item": "composition:wasteland_terrarium"},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "biomesoplenty"
+    }
+  ]
+}

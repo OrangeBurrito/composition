@@ -1,0 +1,6 @@
+{
+  "parent": "composition:block/modern_couch_right",
+  "textures": {
+    "1": "block/yellow_terracotta"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:jars"
+    },
+    {
+      "item": "composition:koru"
+    },
+    {
+      "item": "minecraft:grass_block"
+    }
+  ],
+  "result": {"item": "composition:koru_terrarium"}
+}

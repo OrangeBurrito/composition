@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:jars"
+    },
+    {
+      "item": "atum:flax"
+    },
+    {
+      "item": "minecraft:grass_block"
+    }
+  ],
+  "result": {"item": "composition:flax_terrarium"},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "atum"
+    }
+  ]
+}

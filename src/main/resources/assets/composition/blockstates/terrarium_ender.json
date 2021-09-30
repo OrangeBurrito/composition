@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "composition:block/terrarium_ender" }
+  }
+}

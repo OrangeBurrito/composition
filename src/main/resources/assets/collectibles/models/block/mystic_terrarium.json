@@ -1,6 +1,0 @@
-{
-  "parent": "collectibles:block/fern_terrarium",
-  "textures": {
-    "9": "collectibles:blocks/terrarium_mystic"
-  }
-}

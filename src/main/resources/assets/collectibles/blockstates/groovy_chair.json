@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "collectibles:block/groovy_chair", "y": 180 },
-    "facing=south": { "model": "collectibles:block/groovy_chair" },
-    "facing=west":  { "model": "collectibles:block/groovy_chair", "y": 90 },
-    "facing=east":  { "model": "collectibles:block/groovy_chair", "y": 270 }
-  }
-}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:jars"
+    },
+    {
+      "item": "endergetic:poise_bush"
+    },
+    {
+      "item": "endergetic:poismoss"
+    }
+  ],
+  "result": {"item": "composition:ender_terrarium"},
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "endergetic"
+    }
+  ]
+}

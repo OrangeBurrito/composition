@@ -1,8 +1,0 @@
-{
-	"parent": "collectibles:block/terrarium",
-	"ambientocclusion": false,
-    "textures": {
-        "inside": "collectibles:blocks/terrarium_flower",
-		"particle": "collectibles:items/terrarium_flower"
-    }
-}

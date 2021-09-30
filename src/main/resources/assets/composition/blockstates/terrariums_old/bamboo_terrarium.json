@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "composition:block/bamboo_terrarium" },
+    "facing=south": { "model": "composition:block/bamboo_terrarium", "y": 180 },
+    "facing=west":  { "model": "composition:block/bamboo_terrarium", "y": 270 },
+    "facing=east":  { "model": "composition:block/bamboo_terrarium", "y": 90 }
+  }
+}

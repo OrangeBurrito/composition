@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "composition:block/groovy_chair", "y": 180 },
+    "facing=south": { "model": "composition:block/groovy_chair" },
+    "facing=west":  { "model": "composition:block/groovy_chair", "y": 90 },
+    "facing=east":  { "model": "composition:block/groovy_chair", "y": 270 }
+  }
+}
