@@ -1,6 +1,0 @@
-{
-  "parent": "composition:block/fern_terrarium",
-  "textures": {
-    "9": "composition:blocks/terrarium_origin"
-  }
-}

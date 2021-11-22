@@ -7,17 +7,17 @@
       "tag": "forge:jars"
     },
     {
-      "item": "quark:glowshroom"
+      "item": "biomesoplenty:glowshroom"
     },
     {
-      "item": "quark:glowcelium"
+      "item": "minecraft:grass_block"
     }
   ],
-  "result": {"item": "composition:glowshroom_terrarium"},
+  "result": {"item": "composition:terrarium_glowshroom"},
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "quark"
+      "modid": "biomesoplenty"
     }
   ]
 }

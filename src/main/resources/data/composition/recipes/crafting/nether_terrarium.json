@@ -7,17 +7,14 @@
       "tag": "forge:jars"
     },
     {
-      "item": "biomesoplenty:burning_blossom"
+      "item": "minecraft:warped_fungus"
     },
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:warped_nylium"
     }
   ],
-  "result": {"item": "composition:nether_terrarium"},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "biomesoplenty"
-    }
-  ]
+  "result": {"item": "composition:terrarium_nether"}
 }

@@ -3,9 +3,7 @@
   "item.composition.swedish_meatballs": "Swedish Meatballs",
 
   "item.composition.bird_jerky": "Bird Jerky",
-  "item.composition.camel_jerky": "Camel Jerky",
-  "item.composition.horse_jerky": "Horse Jerky",
-  "item.composition.venison_jerky": "Venison Jerky",
+  "item.composition.kangaroo_jerky": "Kangaroo Jerky",
   "item.composition.nopales_salad": "Nopales Salad",
 
   "item.composition.blackberry_cobbler": "Blackberry Cobbler",
@@ -59,20 +57,19 @@
   "block.composition.toilet": "Toilet",
 
   "block.composition.koru": "Koru",
+  "block.composition.sea_oats": "Sea Oats",
 
-  "block.composition.terrarium_fern": "Fern Terrarium",
+  "block.composition.terrarium_sunflower": "Sunflower Terrarium",
   "block.composition.terrarium_mushroom": "Mushroom Terrarium",
-  "block.composition.terrarium_cactus": "Cactus Terrarium",
-  "block.composition.terrarium_flax": "Flax Terrarium",
-  "block.composition.terrarium_flower": "Flower Terrarium",
+  "block.composition.terrarium_taiga": "Taiga Terrarium",
   "block.composition.terrarium_koru": "Koru Terrarium",
   "block.composition.terrarium_bamboo": "Bamboo Terrarium",
   "block.composition.terrarium_beach": "Beach Terrarium",
-  "block.composition.terrarium_sapling": "Sapling Terrarium",
+  "block.composition.terrarium_cherry": "Cherry Terrarium",
   "block.composition.terrarium_glowshroom": "Glowshroom Terrarium",
-  "block.composition.terrarium_dead": "Dead Terrarium",
   "block.composition.terrarium_mystic": "Mystic Terrarium",
   "block.composition.terrarium_wasteland": "Wasteland Terrarium",
+  "block.composition.terrarium_charred": "Charred Terrarium",
   "block.composition.terrarium_origin": "Origin Terrarium",
   "block.composition.terrarium_nether": "Nether Terrarium",
   "block.composition.terrarium_ender": "Ender Terrarium"

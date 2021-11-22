@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "composition:block/wasteland_terrarium" },
-    "facing=south": { "model": "composition:block/wasteland_terrarium", "y": 180 },
-    "facing=west":  { "model": "composition:block/wasteland_terrarium", "y": 270 },
-    "facing=east":  { "model": "composition:block/wasteland_terrarium", "y": 90 }
-  }
-}

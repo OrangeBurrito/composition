@@ -4,13 +4,13 @@
   "ingredients":
   [
     {
-      "tag": "forge:tool_bakeware"
-    },
-    {
       "tag": "forge:dough"
     },
     {
-      "tag": "forge:blackberries"
+      "item": "blackberries"
+    },
+    {
+      "item": "forge:blackberries"
     },
     {
       "tag": "forge:sugar"
@@ -19,11 +19,5 @@
 
   "result": {
     "item": "composition:blackberry_cobbler"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore"
-    }
-  ]
+  }
 }

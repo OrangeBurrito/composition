@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "aquaculture:atlantic_herring"
+    },
+    {
+      "item": "crockpot:meat_balls"
+    },
+    {
+      "tag": "forge:milk"
+    },
+    {
+      "tag": "forge:eggs"
+    }
+  ],
+  "result": {
+    "item": "composition:swedish_meatballs"
+  }
+}

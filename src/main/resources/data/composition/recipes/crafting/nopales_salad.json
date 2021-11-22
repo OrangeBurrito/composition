@@ -4,22 +4,22 @@
   "ingredients":
   [
     {
+      "tag": "forge:crops/onion"
+    },
+    {
+      "item": "crockpot:pepper"
+    },
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "tag": "forge:vegetables/tomato"
+    },
+    {
+      "item": "fruittrees:lime"
+    },
+    {
       "item": "minecraft:bowl"
-    },
-    {
-      "tag": "forge:onion"
-    },
-    {
-      "tag": "forge:peppers"
-    },
-    {
-      "tag": "forge:cacti"
-    },
-    {
-      "tag": "forge:crops/tomato"
-    },
-    {
-      "item": "pamhc2trees:avocadoitem"
     }
   ],
   "result": {
@@ -28,7 +28,7 @@
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore"
+      "modid": "fruittrees"
     }
   ]
 }

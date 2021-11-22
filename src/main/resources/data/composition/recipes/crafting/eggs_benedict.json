@@ -7,7 +7,7 @@
       "tag": "forge:bread"
     },
     {
-      "tag": "forge:cream"
+      "tag": "forge:milk"
     },
     {
       "item": "fruittrees:lime"
@@ -16,7 +16,7 @@
       "tag": "forge:eggs"
     },
     {
-      "tag": "forge:cookedpork"
+      "tag": "forge:bacon"
     }
   ],
   "result": {

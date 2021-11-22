@@ -10,10 +10,13 @@
       "item": "biomesoplenty:rose"
     },
     {
+      "item": "biomesoplenty:origin_sapling"
+    },
+    {
       "item": "minecraft:grass_block"
     }
   ],
-  "result": {"item": "composition:origin_terrarium"},
+  "result": {"item": "composition:terrarium_origin"},
   "conditions": [
     {
       "type": "forge:mod_loaded",

@@ -48,19 +48,17 @@ public class Composition {
         ClientProxy.registerItemColors();
 
         RenderTypeLookup.setRenderLayer(ModBlocks.GLASS_DOOR.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SUNFLOWER_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.KORU.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FERN_TERRARIUM.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.SEA_OATS.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.MUSHROOM_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.CACTUS_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FLAX_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FLOWER_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.FLOWER_TERRARIUM.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.TAIGA_TERRARIUM.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CHARRED_TERRARIUM.get(), RenderType.getCutout());
+        RenderTypeLookup.setRenderLayer(ModBlocks.CHERRY_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.KORU_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.BAMBOO_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.BEACH_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.SAPLING_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.GLOWSHROOM_TERRARIUM.get(), RenderType.getCutout());
-        RenderTypeLookup.setRenderLayer(ModBlocks.DEAD_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.MYSTIC_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.WASTELAND_TERRARIUM.get(), RenderType.getCutout());
         RenderTypeLookup.setRenderLayer(ModBlocks.ORIGIN_TERRARIUM.get(), RenderType.getCutout());

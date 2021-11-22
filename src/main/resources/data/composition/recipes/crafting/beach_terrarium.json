@@ -7,17 +7,14 @@
       "tag": "forge:jars"
     },
     {
-      "item": "projectvibrantjourneys:sea_oats"
+      "item": "composition:sea_oats"
+    },
+    {
+      "item": "composition:sea_oats"
     },
     {
       "item": "minecraft:sand"
     }
   ],
-  "result": {"item": "composition:beach_terrarium"},
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "projectvibrantjourneys"
-    }
-  ]
+  "result": {"item": "composition:terrarium_beach"}
 }

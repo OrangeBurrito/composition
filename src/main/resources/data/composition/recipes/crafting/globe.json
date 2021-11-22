@@ -2,16 +2,24 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     " M ",
-    " A ",
+    "GAB",
     "###"
   ],
   "key": {
     "#": {
-      "tag": "forge:copper"
-    }, "A": {
+      "item": "create:golden_sheet"
+    },
+    "A": {
       "item": "minecraft:armor_stand"
-    }, "M": {
+    },
+    "M": {
       "item": "minecraft:filled_map"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
     }
   },
   "result": {

@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "composition:blocks/sea_oats_lower"
+  }
+}

@@ -16,25 +16,23 @@ import net.minecraftforge.registries.ForgeRegistries;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Composition.MOD_ID);
 
-//    public static final RegistryObject<Block> TABLE = BLOCKS.register("table", () -> new Table(Block.Properties.create(Material.WOOD).hardnessAndResistance(2, 3).harvestLevel(0).harvestTool(ToolType.AXE).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> KORU = BLOCKS.register("koru", () -> new KoruBlock(Block.Properties.create(Material.PLANTS).doesNotBlockMovement().hardnessAndResistance(0, 0).sound(SoundType.PLANT).harvestLevel(0)));
+    public static final RegistryObject<Block> SEA_OATS = BLOCKS.register("sea_oats", () -> new SeaOatsBlock(Block.Properties.create(Material.TALL_PLANTS).doesNotBlockMovement().hardnessAndResistance(0, 0).sound(SoundType.PLANT).harvestLevel(0)));
 
-    public static final RegistryObject<Block> FERN_TERRARIUM = BLOCKS.register("terrarium_fern", () -> new TerrariumBlock(Block.Properties.create(Material.GLASS).hardnessAndResistance(0.8F, 0.8F).sound(SoundType.GLASS).harvestTool(ToolType.PICKAXE).harvestLevel(0)));
-    public static final RegistryObject<Block> MUSHROOM_TERRARIUM = BLOCKS.register("terrarium_mushroom", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> CACTUS_TERRARIUM = BLOCKS.register("terrarium_cactus", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> FLAX_TERRARIUM = BLOCKS.register("terrarium_flax", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> FLOWER_TERRARIUM = BLOCKS.register("terrarium_flower", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> KORU_TERRARIUM = BLOCKS.register("terrarium_koru", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> BAMBOO_TERRARIUM = BLOCKS.register("terrarium_bamboo", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> BEACH_TERRARIUM = BLOCKS.register("terrarium_beach", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> SAPLING_TERRARIUM = BLOCKS.register("terrarium_sapling", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> GLOWSHROOM_TERRARIUM = BLOCKS.register("terrarium_glowshroom", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> DEAD_TERRARIUM = BLOCKS.register("terrarium_dead", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> MYSTIC_TERRARIUM = BLOCKS.register("terrarium_mystic", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> WASTELAND_TERRARIUM = BLOCKS.register("terrarium_wasteland", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> ORIGIN_TERRARIUM = BLOCKS.register("terrarium_origin", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> NETHER_TERRARIUM = BLOCKS.register("terrarium_nether", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
-    public static final RegistryObject<Block> ENDER_TERRARIUM = BLOCKS.register("terrarium_ender", () -> new TerrariumBlock(Block.Properties.from(FERN_TERRARIUM.get())));
+    public static final RegistryObject<Block> SUNFLOWER_TERRARIUM = BLOCKS.register("terrarium_sunflower", () -> new TerrariumBlock(Block.Properties.create(Material.GLASS).hardnessAndResistance(0.8F, 0.8F).sound(SoundType.GLASS).harvestTool(ToolType.PICKAXE).harvestLevel(0)));
+    public static final RegistryObject<Block> MUSHROOM_TERRARIUM = BLOCKS.register("terrarium_mushroom", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> TAIGA_TERRARIUM = BLOCKS.register("terrarium_taiga", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> KORU_TERRARIUM = BLOCKS.register("terrarium_koru", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> BAMBOO_TERRARIUM = BLOCKS.register("terrarium_bamboo", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> BEACH_TERRARIUM = BLOCKS.register("terrarium_beach", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> CHERRY_TERRARIUM = BLOCKS.register("terrarium_cherry", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> GLOWSHROOM_TERRARIUM = BLOCKS.register("terrarium_glowshroom", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> MYSTIC_TERRARIUM = BLOCKS.register("terrarium_mystic", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> WASTELAND_TERRARIUM = BLOCKS.register("terrarium_wasteland", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> ORIGIN_TERRARIUM = BLOCKS.register("terrarium_origin", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> CHARRED_TERRARIUM = BLOCKS.register("terrarium_charred", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> NETHER_TERRARIUM = BLOCKS.register("terrarium_nether", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
+    public static final RegistryObject<Block> ENDER_TERRARIUM = BLOCKS.register("terrarium_ender", () -> new TerrariumBlock(Block.Properties.from(SUNFLOWER_TERRARIUM.get())));
 
     public static final RegistryObject<Block> TOILET = BLOCKS.register("toilet", () -> new ToiletBlock(Block.Properties.from(Blocks.QUARTZ_BLOCK)));
     public static final RegistryObject<Block> GROOVY_CHAIR = BLOCKS.register("groovy_chair", () -> new GroovyChairBlock(Block.Properties.from(Blocks.OAK_PLANKS)));

@@ -13,7 +13,7 @@
       "item": "biomesoplenty:dried_salt"
     }
   ],
-  "result": {"item": "composition:wasteland_terrarium"},
+  "result": {"item": "composition:terrarium_wasteland"},
   "conditions": [
     {
       "type": "forge:mod_loaded",

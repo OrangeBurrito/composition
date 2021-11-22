@@ -1,0 +1,7 @@
+{
+	"parent": "composition:block/terrarium",
+	"ambientocclusion": false,
+    "textures": {
+        "inside": "composition:blocks/terrarium_cherry"
+    }
+}

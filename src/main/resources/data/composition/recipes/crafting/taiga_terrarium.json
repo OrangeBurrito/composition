@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+
+  "ingredients":
+  [
+    {
+      "tag": "forge:jars"
+    },
+    {
+      "item": "minecraft:sweet_berries"
+    },
+    {
+      "item": "minecraft:fern"
+    },
+    {
+      "item": "minecraft:grass_block"
+    }
+  ],
+  "result": {"item": "composition:terrarium_taiga"}
+}

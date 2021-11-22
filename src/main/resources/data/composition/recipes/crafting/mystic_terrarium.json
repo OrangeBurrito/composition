@@ -13,7 +13,7 @@
       "item": "minecraft:grass_block"
     }
   ],
-  "result": {"item": "composition:mystic_terrarium"},
+  "result": {"item": "composition:terrarium_mystic"},
   "conditions": [
     {
       "type": "forge:mod_loaded",

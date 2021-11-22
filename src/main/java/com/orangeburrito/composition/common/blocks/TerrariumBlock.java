@@ -10,7 +10,7 @@ import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.world.IBlockReader;
 
 public class TerrariumBlock extends WaterloggedHorizontalBlock {
-    private static final VoxelShape SHAPE = VoxelShapes.combineAndSimplify(Block.makeCuboidShape(4, 0, 4, 13, 9, 13), Block.makeCuboidShape(5, 9, 5, 12, 13, 12), IBooleanFunction.OR);
+    private static final VoxelShape SHAPE = VoxelShapes.combineAndSimplify(Block.makeCuboidShape(4.5, 13, 4.5, 11.5, 15, 11.5), Block.makeCuboidShape(3, 0, 3, 13, 13, 13), IBooleanFunction.OR);
 
     public TerrariumBlock(Properties properties) {
         super(properties);

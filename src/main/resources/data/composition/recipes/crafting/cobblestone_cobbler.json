@@ -4,13 +4,10 @@
   "ingredients":
   [
     {
-      "tag": "forge:tool_bakeware"
-    },
-    {
       "tag": "forge:dough"
     },
     {
-      "item": "pamhc2foodcore:butteritem"
+      "tag": "forge:milk"
     },
     {
       "tag": "forge:cobblestone"
@@ -34,11 +31,5 @@
 
   "result": {
     "item": "composition:cobblestone_cobbler"
-  },
-  "conditions": [
-    {
-      "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore"
-    }
-  ]
+  }
 }

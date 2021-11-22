@@ -1,0 +1,8 @@
+{
+	"parent": "composition:block/terrarium",
+	"ambientocclusion": false,
+    "textures": {
+        "inside": "composition:blocks/terrarium_taiga",
+		"particle": "composition:items/terrarium_taiga"
+    }
+}

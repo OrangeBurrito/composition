@@ -7,7 +7,7 @@
       "tag": "forge:bread"
     },
     {
-      "tag": "forge:cream"
+      "tag": "forge:milk"
     },
     {
       "item": "fruittrees:lime"
@@ -16,7 +16,10 @@
       "tag": "forge:eggs"
     },
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "farmersdelight:salmon_slice"
+    },
+    {
+      "item": "farmersdelight:salmon_slice"
     }
   ],
   "result": {

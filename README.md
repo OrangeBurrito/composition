@@ -1,6 +1,7 @@
 # Composition
 
-![Versions](http://cf.way2muchnoise.eu/versions/245755_latest.svg)
+![Version](https://img.shields.io/badge/version-1.16.5-blue?style=flat-square)
+![Modloader](https://img.shields.io/badge/mod%20loader-forge-1976d2?style=flat-square)
 
 Composition is a Forge mod for the RadRealms Minecraft server and modpack.
 

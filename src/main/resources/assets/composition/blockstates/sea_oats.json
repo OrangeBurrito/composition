@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "half=upper": { "model": "composition:block/sea_oats_upper"},
+    "half=lower": { "model": "composition:block/sea_oats_lower"}
+  }
+}

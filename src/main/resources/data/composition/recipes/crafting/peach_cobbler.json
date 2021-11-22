@@ -4,29 +4,28 @@
   "ingredients":
   [
     {
-      "tag": "forge:tool_bakeware"
-    },
-    {
       "tag": "forge:dough"
     },
     {
-      "item": "pamhc2trees:peachitem"
+      "tag": "forge:milk"
+    },
+    {
+      "item": "forbidden_arcanus:cherry_peach"
+    },
+    {
+      "item": "forbidden_arcanus:cherry_peach"
     },
     {
       "tag": "forge:sugar"
     }
-
-
   ],
-
   "result": {
     "item": "composition:peach_cobbler"
   },
   "conditions": [
     {
       "type": "forge:mod_loaded",
-      "modid": "pamhc2foodcore",
-      "modid": "pamhc2trees"
+      "modid": "forbidden_arcanus"
     }
   ]
 }

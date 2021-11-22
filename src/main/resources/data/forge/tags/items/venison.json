@@ -1,8 +1,0 @@
-{
-  "replace": false,
-  "values": [
-    "#forge:venison/venison_env",
-    "#forge:venison/venison_mw",
-    "#forge:venison/venison_tf"
-  ]
-}

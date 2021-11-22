@@ -27,16 +27,18 @@ displayName = "Composition" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="http://example.com/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-#logoFile="composition.png" #optional
-# Item Icon
-itemIcon="composition:eggs_benedict"
+logoFile="logo.png" #optional
 # A text field displayed in the mod UI
 #credits="Thanks for this example mod goes to Java" #optional
 # A text field displayed in the mod UI
 authors = "OrangeBurrito" #optional
 # The description text for the mod (multi line!) (#mandatory)
 description = '''
+Composition
+1921
+Piet Morangian
 
+This is an early example of the geometric mode of modding that Morangian called Neo-Modicism.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.composition]] #optional

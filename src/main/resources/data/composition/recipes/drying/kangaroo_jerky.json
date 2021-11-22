@@ -1,0 +1,10 @@
+{
+  "type": "silents_mechanisms:drying",
+  "process_time": 400,
+  "ingredient": {
+    "item": "alexsmobs:kangaroo_meat"
+  },
+  "result": {
+    "item": "composition:kangaroo_jerky"
+  }
+}
